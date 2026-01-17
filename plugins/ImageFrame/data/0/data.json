@@ -1,0 +1,59 @@
+{
+  "type": "imageframe:url_static",
+  "index": 0,
+  "name": "chaewon",
+  "url": "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/916/2024/03/29/Untitled-design-11-3461671538.png",
+  "width": 3,
+  "height": 3,
+  "ditheringType": "nearest-color",
+  "creator": "3111e11d-a8d8-38cb-91d5-3634898fe22d",
+  "hasAccess": {},
+  "creationTime": 1767077807531,
+  "mapdata": [
+    {
+      "mapid": 9,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 10,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 11,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 12,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 13,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 14,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 15,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 16,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 17,
+      "image": "8.png",
+      "markers": []
+    }
+  ]
+}
