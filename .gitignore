@@ -1,6 +1,7 @@
 # Logs
-logs/
-*.log
+logs/*.log.gz
+logs/latest.log
+plugins/spark/
 
 # Minecraft runtime files
 .console_history
