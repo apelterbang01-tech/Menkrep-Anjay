@@ -1,82 +1,324 @@
-[14:31:58] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
-[14:31:58] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) for Minecraft 1.21.4
-[14:31:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:32:00] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[14:32:00] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
- - GSit (3.1.1), ImageFrame (1.9.0.0)
-[14:32:07] [ServerMain/WARN]: resource-pack-id missing, using default of 436ba9a3-3719-3e86-a13b-5992893888d1
-[14:32:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:32:10] [ServerMain/INFO]: Loaded 1370 recipes
-[14:32:10] [ServerMain/INFO]: Loaded 1481 advancements
-[14:32:10] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[14:32:11] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 485.9ms
-[14:32:11] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[14:32:11] [Server thread/INFO]: Loading properties
-[14:32:11] [Server thread/INFO]: This server is running Paper version 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[14:32:11] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:32:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:32:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:32:13] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[14:32:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[14:32:13] [Server thread/INFO]: Default game type: SURVIVAL
-[14:32:13] [Server thread/INFO]: Generating keypair
-[14:32:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:32:13] [Server thread/INFO]: Using epoll channel type
-[14:32:13] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:32:13] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[14:32:14] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.9.0.0
-[14:32:14] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.1.1
-[14:32:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:32:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:32:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:32:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:32:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:32:14] [Server thread/INFO]: Preparing level "world"
-[14:32:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:32:16] [Server thread/INFO]: Preparing spawn area: 0%
-[14:32:16] [Server thread/INFO]: Preparing spawn area: 0%
-[14:32:16] [Server thread/INFO]: Preparing spawn area: 2%
-[14:32:17] [Server thread/INFO]: Preparing spawn area: 2%
-[14:32:17] [Server thread/INFO]: Preparing spawn area: 2%
-[14:32:17] [Server thread/INFO]: Time elapsed: 2360 ms
-[14:32:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:32:17] [Server thread/INFO]: Preparing spawn area: 0%
-[14:32:18] [Server thread/INFO]: Time elapsed: 354 ms
-[14:32:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:32:18] [Server thread/INFO]: Preparing spawn area: 0%
-[14:32:18] [Server thread/INFO]: Time elapsed: 278 ms
-[14:32:18] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.9.0.0
-[14:32:36] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
-[14:32:36] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
-[14:32:36] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
-[14:32:36] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
-[14:32:36] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
-[14:32:36] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
-[14:32:36] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
-[14:32:36] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
-[14:32:37] [Server thread/INFO]: [GSit] Enabling GSit v3.1.1
-[14:32:37] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[14:32:38] [Server thread/INFO]: [spark] Starting background profiler...
-[14:32:39] [Server thread/INFO]: Done preparing level "world" (24.633s)
-[14:32:39] [Server thread/INFO]: Running delayed init tasks
-[14:32:39] [Server thread/INFO]: Done (41.926s)! For help, type "help"
-[14:32:39] [Craft Scheduler Thread - 1 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
-[14:33:12] [User Authenticator #0/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
-[14:33:16] [Server thread/INFO]: fikrahmalas joined the game
-[14:33:16] [Server thread/INFO]: fikrahmalas[/127.241.190.76:37385] logged in with entity id 298 at ([world]935.437788148433, -21.0, -996.7392990554664)
-[14:34:07] [Server thread/INFO]: fikrahmalas issued server command: /tps
-[14:34:10] [Server thread/INFO]: fikrahmalas issued server command: /tpa
-[14:50:57] [Server thread/INFO]: Villager Villager['Farmer'/412, uuid='27658a7f-0772-43fd-ac58-236d5ce76fd5', l='ServerLevel[world]', x=865.32, y=33.95, z=-935.17, cpos=[54, -59], tl=507820, v=true] died, message: 'Farmer was slain by Zombie'
-[14:59:10] [Server thread/INFO]: fikrahmalas lost connection: Timed out
-[14:59:10] [Server thread/INFO]: fikrahmalas left the game
-[14:59:27] [User Authenticator #1/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
-[14:59:30] [Server thread/INFO]: fikrahmalas joined the game
-[14:59:30] [Server thread/INFO]: fikrahmalas[/127.241.190.76:40395] logged in with entity id 3965 at ([world]660.5, 70.65, -303.6087540298418)
-[15:00:15] [Server thread/INFO]: fikrahmalas lost connection: Timed out
-[15:00:15] [Server thread/INFO]: fikrahmalas left the game
-[15:00:22] [User Authenticator #1/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
-[15:00:24] [Server thread/INFO]: fikrahmalas joined the game
-[15:00:24] [Server thread/INFO]: fikrahmalas[/127.241.190.76:46395] logged in with entity id 4185 at ([world]627.5, 66.0, -330.5)
-[15:07:01] [Server thread/INFO]: Villager Villager['Villager'/868, uuid='b36865f6-156e-4db2-ab9e-187e9b50aa85', l='ServerLevel[world]', x=478.67, y=70.00, z=-361.78, cpos=[29, -23], tl=19671, v=true] died, message: 'Villager was slain by fikrahmalas'
-[15:18:21] [Server thread/INFO]: fikrahmalas lost connection: Disconnected
-[15:18:21] [Server thread/INFO]: fikrahmalas left the game
+[13:17:02] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
+[13:17:02] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) for Minecraft 1.21.4
+[13:17:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:17:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[13:17:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - GSit (3.2.0), ImageFrame (1.9.0.0)
+[13:17:10] [ServerMain/WARN]: resource-pack-id missing, using default of 436ba9a3-3719-3e86-a13b-5992893888d1
+[13:17:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:17:13] [ServerMain/INFO]: Loaded 1370 recipes
+[13:17:13] [ServerMain/INFO]: Loaded 1481 advancements
+[13:17:14] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[13:17:14] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 294.6ms
+[13:17:14] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[13:17:14] [Server thread/INFO]: Loading properties
+[13:17:14] [Server thread/INFO]: This server is running Paper version 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[13:17:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:17:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:17:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:17:16] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[13:17:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:17:16] [Server thread/INFO]: Default game type: SURVIVAL
+[13:17:16] [Server thread/INFO]: Generating keypair
+[13:17:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:17:16] [Server thread/INFO]: Using epoll channel type
+[13:17:16] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:17:16] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[13:17:17] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.9.0.0
+[13:17:17] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.2.0
+[13:17:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:17:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:17:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:17:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:17:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:17:17] [Server thread/INFO]: Preparing level "world"
+[13:17:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:17:20] [Server thread/INFO]: Preparing spawn area: 0%
+[13:17:20] [Server thread/INFO]: Preparing spawn area: 0%
+[13:17:20] [Server thread/INFO]: Preparing spawn area: 0%
+[13:17:20] [Server thread/INFO]: Preparing spawn area: 0%
+[13:17:21] [Server thread/INFO]: Preparing spawn area: 2%
+[13:17:21] [Server thread/INFO]: Preparing spawn area: 2%
+[13:17:21] [Server thread/INFO]: Preparing spawn area: 2%
+[13:17:22] [Server thread/INFO]: Preparing spawn area: 2%
+[13:17:22] [Server thread/INFO]: Time elapsed: 3579 ms
+[13:17:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:17:22] [Server thread/INFO]: Preparing spawn area: 0%
+[13:17:22] [Server thread/INFO]: Time elapsed: 443 ms
+[13:17:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:17:22] [Server thread/INFO]: Preparing spawn area: 0%
+[13:17:22] [Server thread/INFO]: Time elapsed: 246 ms
+[13:17:22] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.9.0.0
+[13:17:35] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
+[13:17:35] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
+[13:17:35] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
+[13:17:35] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
+[13:17:35] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
+[13:17:35] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
+[13:17:35] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
+[13:17:35] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[13:17:35] [Server thread/INFO]: [GSit] Enabling GSit v3.2.0
+[13:17:36] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[13:17:36] [Server thread/INFO]: [spark] Starting background profiler...
+[13:17:36] [Server thread/INFO]: Done preparing level "world" (19.568s)
+[13:17:36] [Server thread/INFO]: Running delayed init tasks
+[13:17:36] [Server thread/INFO]: Done (36.249s)! For help, type "help"
+[13:17:37] [Craft Scheduler Thread - 2 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
+[13:21:46] [User Authenticator #0/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:21:50] [Server thread/INFO]: fikrahmalas joined the game
+[13:21:50] [Server thread/INFO]: fikrahmalas[/127.219.180.166:57287] logged in with entity id 295 at ([world]472.2205527120532, 69.0, -372.67326647000874)
+[13:22:37] [User Authenticator #0/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
+[13:22:50] [Server thread/INFO]: AbuRazen joined the game
+[13:22:50] [Server thread/INFO]: AbuRazen[/127.175.81.155:56309] logged in with entity id 515 at ([world]470.5511052283646, 68.0, -344.663531152633)
+[13:23:35] [Server thread/INFO]: AbuRazen lost connection: Timed out
+[13:23:35] [Server thread/INFO]: AbuRazen left the game
+[13:24:03] [Server thread/INFO]: fikrahmalas issued server command: /gamemode creative @s
+[13:24:03] [Server thread/INFO]: [fikrahmalas: Set own game mode to Creative Mode]
+[13:26:33] [User Authenticator #1/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
+[13:26:42] [Server thread/INFO]: AbuRazen joined the game
+[13:26:42] [Server thread/INFO]: AbuRazen[/127.175.81.155:55809] logged in with entity id 957 at ([world]470.5511052283646, 68.0, -344.663531152633)
+[13:28:08] [Server thread/INFO]: fikrahmalas issued server command: /fill 466 56 -401 482 56 -407 air
+[13:28:08] [Server thread/INFO]: [fikrahmalas: Successfully filled 28 block(s)]
+[13:28:29] [Server thread/INFO]: fikrahmalas issued server command: /fill 466 55 -401 482 60 -407 air
+[13:28:29] [Server thread/INFO]: [fikrahmalas: Successfully filled 195 block(s)]
+[13:28:37] [Server thread/INFO]: fikrahmalas issued server command: /fill 466 55 -401 482 60 -408 air
+[13:28:37] [Server thread/INFO]: [fikrahmalas: Successfully filled 80 block(s)]
+[13:29:25] [Server thread/INFO]: fikrahmalas issued server command: /gamemode survival @s
+[13:29:25] [Server thread/INFO]: [fikrahmalas: Set own game mode to Survival Mode]
+[13:30:15] [Async Chat Thread - #0/INFO]: [Not Secure] <AbuRazen> lu mana pik
+[13:30:36] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> rumah
+[13:30:47] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> mau mining?
+[13:31:07] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> oi
+[13:31:17] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> mau mining?
+[13:31:22] [Async Chat Thread - #0/INFO]: [Not Secure] <AbuRazen> ayo
+[13:31:27] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> ikut gua
+[13:32:34] [Async Chat Thread - #2/INFO]: [Not Secure] <AbuRazen> sabar lag gua
+[13:34:04] [Server thread/INFO]: AbuRazen lost connection: Disconnected
+[13:34:04] [Server thread/INFO]: AbuRazen left the game
+[13:34:17] [User Authenticator #2/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
+[13:34:27] [Server thread/INFO]: AbuRazen joined the game
+[13:34:27] [Server thread/INFO]: AbuRazen[/127.175.81.155:34679] logged in with entity id 2705 at ([world]733.2667441088984, 69.91674410889837, -966.5)
+[13:35:02] [User Authenticator #2/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
+[13:35:02] [Server thread/INFO]: AbuRazen lost connection: You logged in from another location
+[13:35:02] [Server thread/INFO]: AbuRazen left the game
+[13:35:10] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:35:13] [Server thread/INFO]: AbuRazen joined the game
+[13:35:13] [Server thread/INFO]: AbuRazen[/127.175.81.155:56641] logged in with entity id 2776 at ([world]732.5, 70.0, -965.5)
+[13:35:47] [Async Chat Thread - #4/INFO]: [Not Secure] <fikrahmalas> test
+[13:35:58] [Async Chat Thread - #5/INFO]: [Not Secure] <AbuRazen> lag
+[13:36:26] [Server thread/INFO]: AbuRazen lost connection: Disconnected
+[13:36:26] [Server thread/INFO]: AbuRazen left the game
+[13:37:16] [User Authenticator #3/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
+[13:37:27] [Server thread/INFO]: AbuRazen joined the game
+[13:37:27] [Server thread/INFO]: AbuRazen[/127.175.81.155:56147] logged in with entity id 3068 at ([world]772.9651930171922, 71.9375, -971.0383164767321)
+[13:37:43] [Async Chat Thread - #6/INFO]: [Not Secure] <fikrahmalas> gimana?
+[13:37:52] [Async Chat Thread - #6/INFO]: [Not Secure] <AbuRazen> ok\
+[13:37:54] [Async Chat Thread - #6/INFO]: [Not Secure] <fikrahmalas> w
+[13:39:06] [Async Chat Thread - #8/INFO]: [Not Secure] <fikrahmalas> taro barang2 gak guna dulu
+[13:39:46] [Async Chat Thread - #8/INFO]: [Not Secure] <fikrahmalas> yuk
+[13:40:21] [Async Chat Thread - #8/INFO]: [Not Secure] <AbuRazen> sabar
+[13:41:25] [Async Chat Thread - #10/INFO]: [Not Secure] <AbuRazen> lag bet
+[13:42:55] [Async Chat Thread - #12/INFO]: [Not Secure] <fikrahmalas> cari coal juga deh
+[13:42:57] [Async Chat Thread - #12/INFO]: [Not Secure] <fikrahmalas> lupa bawa
+[13:43:04] [Server thread/INFO]: AbuRazen issued server command: /
+[13:43:07] [Async Chat Thread - #12/INFO]: [Not Secure] <AbuRazen> dm
+[13:43:20] [Async Chat Thread - #12/INFO]: [Not Secure] <AbuRazen> oi
+[13:43:24] [Async Chat Thread - #12/INFO]: [Not Secure] <fikrahmalas> ha
+[13:45:40] [Async Chat Thread - #14/INFO]: [Not Secure] <fikrahmalas> kalo ada torch taro2 in pan
+[13:45:44] [Async Chat Thread - #14/INFO]: [Not Secure] <fikrahmalas> coal gua abis
+[13:45:49] [Async Chat Thread - #14/INFO]: [Not Secure] <AbuRazen> kgk ada
+[13:46:37] [Async Chat Thread - #14/INFO]: [Not Secure] <fikrahmalas> cari coal dulu
+[13:46:45] [Server thread/INFO]: fikrahmalas was blown up by Creeper
+[13:47:04] [Server thread/INFO]: fikrahmalas issued server command: /tp @s AbuRazen
+[13:47:04] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to AbuRazen]
+[13:47:05] [Async Chat Thread - #14/INFO]: [Not Secure] <AbuRazen> tp sini
+[13:47:34] [Async Chat Thread - #14/INFO]: [Not Secure] <fikrahmalas> bentar lag gua
+[13:48:12] [Async Chat Thread - #14/INFO]: [Not Secure] <AbuRazen> pake charcoal aja
+[13:48:37] [Async Chat Thread - #15/INFO]: [Not Secure] <fikrahmalas> cari coal dlu deh
+[13:48:53] [Async Chat Thread - #14/INFO]: [Not Secure] <AbuRazen> gua ada kayu bkin charcoal aja
+[13:49:02] [Async Chat Thread - #14/INFO]: [Not Secure] <fikrahmalas> sayang tuh buat stick pan
+[13:49:06] [Async Chat Thread - #14/INFO]: [Not Secure] <fikrahmalas> banyak gak
+[13:49:14] [Async Chat Thread - #14/INFO]: [Not Secure] <AbuRazen> banyak
+[13:50:33] [Async Chat Thread - #16/INFO]: [Not Secure] <AbuRazen> di gua terang pik
+[13:50:57] [Async Chat Thread - #16/INFO]: [Not Secure] <fikrahmalas> bukan masalah terang apa gak, kalo gak dikasih torch mob pada muncul atuh
+[13:51:18] [Async Chat Thread - #16/INFO]: [Not Secure] <fikrahmalas> buatin pedang pan
+[13:51:51] [Async Chat Thread - #16/INFO]: [Not Secure] <fikrahmalas> yo
+[13:54:09] [Async Chat Thread - #18/INFO]: [Not Secure] <fikrahmalas> ubat torch lagi deh
+[13:54:15] [Async Chat Thread - #18/INFO]: [Not Secure] <AbuRazen> benta
+[13:56:36] [Async Chat Thread - #20/INFO]: [Not Secure] <AbuRazen> skin gua kok jadi kyk gini
+[13:56:43] [Async Chat Thread - #21/INFO]: [Not Secure] <fikrahmalas> jadi apaan
+[13:56:57] [Async Chat Thread - #20/INFO]: [Not Secure] <AbuRazen> tadinya pake sorban
+[13:57:04] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> itu pake sorpan
+[13:57:51] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> arrow siniin deh pan
+[13:58:05] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> yok
+[13:58:37] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> di atas tuh
+[13:58:38] [Async Chat Thread - #20/INFO]: [Not Secure] <AbuRazen> ada sleme
+[14:00:49] [Server thread/WARN]: AbuRazen moved too quickly! -0.4340883226968799,0.0,-17.442672574022254
+[14:03:39] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> lapis lazuli ambil gak
+[14:04:04] [Async Chat Thread - #23/INFO]: [Not Secure] <AbuRazen> pik bkin bookself
+[14:04:04] [Server thread/WARN]: AbuRazen moved too quickly! 7.952672528095036,2.587090719582987,-5.647053130359154
+[14:04:19] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> diamond udah ada kan
+[14:04:22] [Async Chat Thread - #23/INFO]: [Not Secure] <AbuRazen> buat echanmen
+[14:05:00] [Server thread/WARN]: AbuRazen moved too quickly! 6.49756036141423,0.25220334025372537,-7.968607185798419
+[14:05:10] [Async Chat Thread - #23/INFO]: [Not Secure] <AbuRazen> dm
+[14:05:42] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> ambil lapis juga tuh]
+[14:06:02] [Async Chat Thread - #23/INFO]: [Not Secure] <AbuRazen> gua dari jauh ke,i
+[14:06:12] [Async Chat Thread - #22/INFO]: [Not Secure] <AbuRazen> keliatan ore nya
+[14:06:29] [Async Chat Thread - #22/INFO]: [Not Secure] <fikrahmalas> kan lu pake nigh vision
+[14:06:42] [Async Chat Thread - #22/INFO]: [Not Secure] <AbuRazen> wkwk
+[14:06:54] [Async Chat Thread - #22/INFO]: [Not Secure] <fikrahmalas> gold perlu gak sih
+[14:07:02] [Async Chat Thread - #22/INFO]: [Not Secure] <AbuRazen> ga gitu
+[14:07:05] [Async Chat Thread - #22/INFO]: [Not Secure] <fikrahmalas> ok
+[14:07:36] [Async Chat Thread - #22/INFO]: [Not Secure] <AbuRazen> d,m
+[14:08:10] [Async Chat Thread - #22/INFO]: [Not Secure] <fikrahmalas> sini apn
+[14:08:23] [Async Chat Thread - #22/INFO]: [Not Secure] <fikrahmalas> wah ada spawner kayanya nih
+[14:08:38] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> banyak bet zomvbienya
+[14:08:52] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> tuh di bawah
+[14:09:16] [Async Chat Thread - #23/INFO]: [Not Secure] <AbuRazen> cek
+[14:09:27] [Async Chat Thread - #23/INFO]: [Not Secure] <AbuRazen> klo nemu jan di ancurin buat exp
+[14:09:55] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> open pan
+[14:10:35] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> bener aja spawner
+[14:10:36] [Async Chat Thread - #22/INFO]: [Not Secure] <AbuRazen> jan di ancurin
+[14:11:01] [Async Chat Thread - #23/INFO]: [Not Secure] <AbuRazen> kasi koordinat
+[14:11:14] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> foto aja
+[14:11:20] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> foto deh
+[14:11:28] [Async Chat Thread - #23/INFO]: [Not Secure] <AbuRazen> buat sumber exp
+[14:11:36] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> udah?
+[14:11:57] [Async Chat Thread - #23/INFO]: [Not Secure] <AbuRazen> dah
+[14:12:29] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> la[is
+[14:13:27] [Async Chat Thread - #23/INFO]: [Not Secure] <AbuRazen> sini
+[14:14:28] [Async Chat Thread - #24/INFO]: [Not Secure] <fikrahmalas> ada lagi tuh
+[14:14:50] [Async Chat Thread - #24/INFO]: [Not Secure] <fikrahmalas> gua open jalan lu mining aja
+[14:15:00] [Async Chat Thread - #24/INFO]: [Not Secure] <AbuRazen> ok
+[14:15:08] [Async Chat Thread - #24/INFO]: [Not Secure] <AbuRazen> pik full dm
+[14:15:14] [Async Chat Thread - #24/INFO]: [Not Secure] <fikrahmalas> ha
+[14:15:18] [Async Chat Thread - #24/INFO]: [Not Secure] <AbuRazen> armor
+[14:15:23] [Async Chat Thread - #24/INFO]: [Not Secure] <fikrahmalas> nanti2
+[14:15:45] [Async Chat Thread - #25/INFO]: [Not Secure] <AbuRazen> sip
+[14:15:47] [Async Chat Thread - #24/INFO]: [Not Secure] <fikrahmalas> torch gua abis lagih
+[14:16:19] [Async Chat Thread - #24/INFO]: [Not Secure] <fikrahmalas> sini buntu, kita lanjut atas
+[14:16:47] [Async Chat Thread - #24/INFO]: [Not Secure] <AbuRazen> up ke full dm nantibiar aman
+[14:17:00] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[14:17:00] [Server thread/INFO]: fikrahmalas left the game
+[14:17:41] [User Authenticator #4/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[14:17:43] [Server thread/INFO]: fikrahmalas joined the game
+[14:17:43] [Server thread/INFO]: fikrahmalas[/127.36.62.191:36753] logged in with entity id 8160 at ([world]943.4360265937485, -29.0, -1255.9816988870225)
+[14:17:48] [Async Chat Thread - #26/INFO]: [Not Secure] <fikrahmalas> rajungan
+[14:17:55] [Async Chat Thread - #26/INFO]: [Not Secure] <fikrahmalas> wifi gua direstart ama abang gua
+[14:18:28] [Async Chat Thread - #26/INFO]: [Not Secure] <fikrahmalas> boleh2
+[14:18:38] [Async Chat Thread - #27/INFO]: [Not Secure] <AbuRazen> lag jirr
+[14:19:42] [Async Chat Thread - #28/INFO]: [Not Secure] <fikrahmalas> dm tuh
+[14:23:32] [Async Chat Thread - #30/INFO]: [Not Secure] <AbuRazen> wait
+[14:27:44] [Async Chat Thread - #32/INFO]: [Not Secure] <fikrahmalas> kalo inventory kira2 dah full kita balik
+[14:29:07] [Async Chat Thread - #35/INFO]: [Not Secure] <AbuRazen> ayo naek aja
+[14:29:16] [Async Chat Thread - #35/INFO]: [Not Secure] <fikrahmalas> balik nih?
+[14:29:20] [Async Chat Thread - #35/INFO]: [Not Secure] <AbuRazen> mining ke atas
+[14:29:31] [Async Chat Thread - #35/INFO]: [Not Secure] <fikrahmalas> jangan
+[14:29:55] [Async Chat Thread - #35/INFO]: [Not Secure] <fikrahmalas> balik sekalian explore aja
+[14:33:49] [Async Chat Thread - #37/INFO]: [Not Secure] <fikrahmalas> bawa kereta mu pan
+[14:36:09] [Async Chat Thread - #38/INFO]: [Not Secure] <fikrahmalas> awokawok rel nya putus cuk kena creeper tadi
+[14:36:23] [Async Chat Thread - #39/INFO]: [Not Secure] <fikrahmalas> lanjut2
+[14:38:30] [Server thread/INFO]: AbuRazen lost connection: Disconnected
+[14:38:30] [Server thread/INFO]: AbuRazen left the game
+[14:38:44] [User Authenticator #5/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
+[14:38:52] [Server thread/INFO]: AbuRazen joined the game
+[14:38:52] [Server thread/INFO]: AbuRazen[/127.175.81.155:38561] logged in with entity id 12014 at ([world]520.5, 68.65, -372.33207012425544)
+[14:39:12] [Async Chat Thread - #40/INFO]: [Not Secure] <fikrahmalas> yok upgrade2
+[14:39:40] [Async Chat Thread - #40/INFO]: [Not Secure] <fikrahmalas> buat ae langsung pan
+[14:40:01] [Async Chat Thread - #40/INFO]: [Not Secure] <AbuRazen> dm nhya
+[14:40:15] [Async Chat Thread - #40/INFO]: [Not Secure] <fikrahmalas> gua mau pakein kuda gua armor dulu
+[14:40:40] [Server thread/INFO]: AbuRazen has made the advancement [Cover Me with Diamonds]
+[14:41:52] [Async Chat Thread - #42/INFO]: [Not Secure] <fikrahmalas> iron bakar2in dulu aja di bawah
+[14:43:49] [Server thread/WARN]: AbuRazen moved too quickly! -6.358338141345314,0.0,-9.99178497995706
+[14:44:03] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> asik gak cave mining pan
+[14:44:14] [Async Chat Thread - #44/INFO]: [Not Secure] <AbuRazen> asik
+[14:44:52] [Async Chat Thread - #45/INFO]: [Not Secure] <AbuRazen> bikin echanting nih pik kurang
+[14:45:00] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> bikin aja
+[14:45:09] [Async Chat Thread - #44/INFO]: [Not Secure] <AbuRazen> biar bisa di up ke fortune pixake
+[14:45:14] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> bener
+[14:45:32] [Async Chat Thread - #45/INFO]: [Not Secure] <AbuRazen> cari sugar canes
+[14:45:39] [Async Chat Thread - #45/INFO]: [Not Secure] <AbuRazen> sama kulit sapi
+[14:45:45] [Async Chat Thread - #45/INFO]: [Not Secure] <fikrahmalas> ada di atas kulit sapi
+[14:45:56] [Async Chat Thread - #45/INFO]: [Not Secure] <fikrahmalas> sugar cane di anuin dulu di luar
+[14:46:02] [Async Chat Thread - #45/INFO]: [Not Secure] <AbuRazen> yang banyak
+[14:46:22] [Async Chat Thread - #44/INFO]: [Not Secure] <AbuRazen> ada peternakan sapi gk di sini?
+[14:46:23] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> ngambil sugar cane di ancurin aja kan, asal gak ancurin yang paling bawah?
+[14:46:26] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> ada
+[14:46:39] [Async Chat Thread - #44/INFO]: [Not Secure] <AbuRazen> panen
+[14:46:40] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> ya pan?
+[14:47:03] [Async Chat Thread - #45/INFO]: [Not Secure] <fikrahmalas> sugar cane ancurin atasnya aja kan ya
+[14:47:11] [Async Chat Thread - #45/INFO]: [Not Secure] <AbuRazen> dimana?
+[14:47:17] [Async Chat Thread - #45/INFO]: [Not Secure] <AbuRazen> iya
+[14:47:20] [Async Chat Thread - #45/INFO]: [Not Secure] <fikrahmalas> di samping markas
+[14:47:57] [Async Chat Thread - #45/INFO]: [Not Secure] <fikrahmalas> udah 1 stack sugar cane nih
+[14:48:01] [Async Chat Thread - #45/INFO]: [Not Secure] <AbuRazen> di mana jir
+[14:48:07] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> nyari apaan
+[14:48:11] [Async Chat Thread - #44/INFO]: [Not Secure] <AbuRazen> kurang kulit sapi itu
+[14:48:25] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> ada lemari paling bawah di rumah gua pan
+[14:48:31] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> cukup kayanya itu
+[14:49:04] [Async Chat Thread - #45/INFO]: [Not Secure] <fikrahmalas> 11 kulit sapi
+[14:49:10] [Async Chat Thread - #45/INFO]: [Not Secure] <fikrahmalas> cukup gak
+[14:49:20] [Async Chat Thread - #44/INFO]: [Not Secure] <AbuRazen> kurang
+[14:49:56] [Async Chat Thread - #45/INFO]: [Not Secure] <fikrahmalas> bbutuh berapa
+[14:50:38] [Server thread/INFO]: AbuRazen lost connection: Timed out
+[14:50:38] [Server thread/INFO]: AbuRazen left the game
+[14:50:48] [User Authenticator #6/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
+[14:50:57] [Server thread/INFO]: AbuRazen joined the game
+[14:50:57] [Server thread/INFO]: AbuRazen[/127.175.81.155:47043] logged in with entity id 13723 at ([world]422.0309835170492, 65.24918707874468, -386.119270169141)
+[14:51:03] [Async Chat Thread - #46/INFO]: [Not Secure] <fikrahmalas> kulit sapi buat apaan pan
+[14:51:39] [Server thread/INFO]: AbuRazen has made the advancement [The Parrots and the Bats]
+[14:52:16] [Async Chat Thread - #48/INFO]: [Not Secure] <fikrahmalas> dah
+[14:52:18] [Async Chat Thread - #49/INFO]: [Not Secure] <AbuRazen> bikin book self
+[14:52:21] [Async Chat Thread - #49/INFO]: [Not Secure] <fikrahmalas> cukup tuh
+[14:52:32] [Server thread/INFO]: AbuRazen lost connection: Disconnected
+[14:52:32] [Server thread/INFO]: AbuRazen left the game
+[14:52:42] [User Authenticator #7/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
+[14:52:49] [Server thread/INFO]: AbuRazen joined the game
+[14:52:49] [Server thread/INFO]: AbuRazen[/127.175.81.155:53923] logged in with entity id 14020 at ([world]430.2822649711373, 65.0, -396.3984392039868)
+[14:53:26] [Async Chat Thread - #50/INFO]: [Not Secure] <AbuRazen> mana sini
+[14:53:31] [Async Chat Thread - #50/INFO]: [Not Secure] <fikrahmalas> apaan
+[14:53:36] [Async Chat Thread - #50/INFO]: [Not Secure] <AbuRazen> kulit
+[14:53:51] [Async Chat Thread - #50/INFO]: [Not Secure] <AbuRazen> sama sugar canes
+[14:58:03] [Async Chat Thread - #52/INFO]: [Not Secure] <AbuRazen> kurang pik
+[14:58:09] [Async Chat Thread - #52/INFO]: [Not Secure] <fikrahmalas> walah
+[14:58:13] [Async Chat Thread - #52/INFO]: [Not Secure] <fikrahmalas> apanya yang kurang tuh
+[14:58:25] [Async Chat Thread - #52/INFO]: [Not Secure] <AbuRazen> baru 8 book self nya
+[14:58:34] [Async Chat Thread - #52/INFO]: [Not Secure] <fikrahmalas> butuh berapa
+[14:58:43] [Async Chat Thread - #52/INFO]: [Not Secure] <AbuRazen> butuh 14
+[14:58:52] [Async Chat Thread - #52/INFO]: [Not Secure] <fikrahmalas> wailah
+[14:58:59] [Async Chat Thread - #52/INFO]: [Not Secure] <fikrahmalas> banyak juga ya
+[14:59:04] [Server thread/INFO]: AbuRazen lost connection: Timed out
+[14:59:04] [Server thread/INFO]: AbuRazen left the game
+[14:59:08] [User Authenticator #8/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
+[14:59:16] [Server thread/INFO]: AbuRazen joined the game
+[14:59:16] [Server thread/INFO]: AbuRazen[/127.175.81.155:58763] logged in with entity id 14780 at ([world]475.664655195115, 69.0, -373.2731780384834)
+[14:59:48] [Async Chat Thread - #52/INFO]: [Not Secure] <AbuRazen> kurang sugar canes sama kulitnya pik
+[14:59:59] [Async Chat Thread - #52/INFO]: [Not Secure] <fikrahmalas> yowes lah sambil jalan aja
+[15:00:11] [Async Chat Thread - #53/INFO]: [Not Secure] <fikrahmalas> gak papa gak usah buru2
+[15:00:47] [Async Chat Thread - #52/INFO]: [Not Secure] <fikrahmalas> gua udahan dulu deh
+[15:01:07] [Async Chat Thread - #52/INFO]: [Not Secure] <AbuRazen> wait sini kerumah gua
+[15:01:49] [Async Chat Thread - #52/INFO]: [Not Secure] <fikrahmalas> nah ada tuh
+[15:02:11] [Async Chat Thread - #52/INFO]: [Not Secure] <fikrahmalas> dempet gak masalah tuh pan ama bookshelf?
+[15:02:16] [Async Chat Thread - #52/INFO]: [Not Secure] <AbuRazen> bary level 8
+[15:02:24] [Async Chat Thread - #52/INFO]: [Not Secure] <AbuRazen> ga masalah
+[15:02:41] [Async Chat Thread - #53/INFO]: [Not Secure] <AbuRazen> kurang kurang 8 lagi
+[15:02:49] [Async Chat Thread - #53/INFO]: [Not Secure] <fikrahmalas> apana
+[15:03:00] [Async Chat Thread - #53/INFO]: [Not Secure] <AbuRazen> book self
+[15:03:06] [Async Chat Thread - #52/INFO]: [Not Secure] <AbuRazen> baru level 8
+[15:03:11] [Async Chat Thread - #53/INFO]: [Not Secure] <fikrahmalas> oalah
+[15:03:19] [Async Chat Thread - #53/INFO]: [Not Secure] <fikrahmalas> yowes sambil berjalan aja
+[15:03:32] [Async Chat Thread - #53/INFO]: [Not Secure] <fikrahmalas> gua udahan dulu
+[15:03:36] [Async Chat Thread - #53/INFO]: [Not Secure] <AbuRazen> sip
+[15:03:37] [Async Chat Thread - #53/INFO]: [Not Secure] <fikrahmalas> thank you pan
+[15:03:39] [Server thread/INFO]: fikrahmalas lost connection: Disconnected
+[15:03:39] [Server thread/INFO]: fikrahmalas left the game
+[15:25:17] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[15:28:47] [Paper Async Task Handler Thread - 0/INFO]: [⚡] Stopping the background profiler before starting... please wait
+[15:28:47] [Paper Async Task Handler Thread - 0/INFO]: [⚡] Starting a new profiler, please wait...
+[15:28:47] [Paper Async Task Handler Thread - 0/INFO]: [⚡] Profiler is now running! (async)
+[15:28:47] [Paper Async Task Handler Thread - 0/INFO]: [⚡] The results will be automatically returned after the profiler has been running for 1m.
+[15:29:47] [ForkJoinPool.commonPool-worker-2/INFO]: [⚡] The active profiler has completed! Uploading results...
+[15:29:48] [ForkJoinPool.commonPool-worker-2/INFO]: [⚡] Profiler stopped & upload complete!
+[15:29:48] [ForkJoinPool.commonPool-worker-2/INFO]: https://spark.lucko.me/pvslOU3ZmO
+[15:36:16] [Server thread/INFO]: AbuRazen lost connection: Disconnected
+[15:36:16] [Server thread/INFO]: AbuRazen left the game
