@@ -1,149 +1,128 @@
-[15:42:29] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
-[15:42:29] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) for Minecraft 1.21.4
-[15:42:29] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:42:30] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[15:42:30] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - GSit (3.2.0), ImageFrame (1.9.0.0), voicechat (2.6.11)
-[15:42:38] [ServerMain/WARN]: resource-pack-id missing, using default of 436ba9a3-3719-3e86-a13b-5992893888d1
-[15:42:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:42:41] [ServerMain/INFO]: Loaded 1370 recipes
-[15:42:41] [ServerMain/INFO]: Loaded 1481 advancements
-[15:42:41] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[15:42:41] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 330.9ms
-[15:42:41] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[15:42:41] [Server thread/INFO]: Loading properties
-[15:42:42] [Server thread/INFO]: This server is running Paper version 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[15:42:42] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:42:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:42:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:42:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:42:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:42:44] [Server thread/INFO]: Default game type: SURVIVAL
-[15:42:44] [Server thread/INFO]: Generating keypair
-[15:42:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:42:44] [Server thread/INFO]: Using epoll channel type
-[15:42:44] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:42:44] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:42:45] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.9.0.0
-[15:42:45] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.11
-[15:42:45] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.2.0
-[15:42:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:42:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:42:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:42:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:42:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:42:45] [Server thread/INFO]: Preparing level "world"
-[15:42:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:42:46] [Server thread/INFO]: Preparing spawn area: 0%
-[15:42:47] [Server thread/INFO]: Preparing spawn area: 2%
-[15:42:47] [Server thread/INFO]: Preparing spawn area: 2%
-[15:42:48] [Server thread/INFO]: Preparing spawn area: 2%
-[15:42:48] [Server thread/INFO]: Preparing spawn area: 2%
-[15:42:48] [Server thread/INFO]: Time elapsed: 2285 ms
-[15:42:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:42:48] [Server thread/INFO]: Preparing spawn area: 0%
-[15:42:49] [Server thread/INFO]: Time elapsed: 331 ms
-[15:42:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:42:49] [Server thread/INFO]: Preparing spawn area: 0%
-[15:42:49] [Server thread/INFO]: Time elapsed: 229 ms
-[15:42:49] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.9.0.0
-[15:43:01] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
-[15:43:01] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
-[15:43:01] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
-[15:43:01] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
-[15:43:01] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
-[15:43:01] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
-[15:43:01] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
-[15:43:01] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
-[15:43:01] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.11
-[15:43:01] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.4-R0.1
-[15:43:01] [Server thread/INFO]: [voicechat] Compatibility version 20
-[15:43:01] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[15:43:01] [Server thread/INFO]: [GSit] Enabling GSit v3.2.0
-[15:43:02] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[15:43:02] [Server thread/INFO]: [spark] Starting background profiler...
-[15:43:03] [Server thread/INFO]: Done preparing level "world" (17.888s)
-[15:43:03] [Server thread/INFO]: Running delayed init tasks
-[15:43:03] [Server thread/INFO]: Done (35.810s)! For help, type "help"
-[15:43:03] [Server thread/INFO]: [voicechat] Loading plugins
-[15:43:03] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[15:43:03] [Server thread/INFO]: [voicechat] Initializing plugins
-[15:43:03] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[15:43:03] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[15:43:03] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[15:43:04] [Craft Scheduler Thread - 1 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
-[15:43:23] [User Authenticator #0/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
-[15:43:25] [Server thread/INFO]: fikrahmalas joined the game
-[15:43:25] [Server thread/INFO]: fikrahmalas[/127.36.62.191:43503] logged in with entity id 275 at ([world]486.31715640200224, 62.9375, -353.2516143778164)
-[15:43:26] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b0921f95-61a6-400a-a279-8fdcd5f0d277, mapped to Squid['Squid'/245, uuid='b0921f95-61a6-400a-a279-8fdcd5f0d277', l='ServerLevel[world]', x=480.01, y=60.98, z=-340.60, cpos=[30, -22], tl=4056, v=true], can't add Squid['Squid'/288, uuid='b0921f95-61a6-400a-a279-8fdcd5f0d277', l='ServerLevel[world]', x=498.14, y=62.74, z=-341.40, cpos=[31, -22], tl=5903, v=false]
-[15:43:26] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 8b9d5d4b-2a9c-425b-846a-972e6d7fea58, mapped to Squid['Squid'/246, uuid='8b9d5d4b-2a9c-425b-846a-972e6d7fea58', l='ServerLevel[world]', x=492.35, y=60.88, z=-344.03, cpos=[30, -22], tl=2555, v=true], can't add Squid['Squid'/289, uuid='8b9d5d4b-2a9c-425b-846a-972e6d7fea58', l='ServerLevel[world]', x=501.48, y=60.03, z=-350.55, cpos=[31, -22], tl=4402, v=false]
-[15:44:11] [User Authenticator #0/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
-[15:44:18] [Server thread/INFO]: AbuRazen joined the game
-[15:44:18] [Server thread/INFO]: AbuRazen[/127.123.157.129:52767] logged in with entity id 520 at ([world]483.08913449261775, 68.0, -369.23444691260113)
-[15:44:44] [Async Chat Thread - #0/INFO]: [Not Secure] <AbuRazen> ayo
-[15:44:52] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> jam 11
-[15:44:58] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> server bakal ditutup
-[15:45:04] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> mau ada maintenance
-[15:52:34] [Async Chat Thread - #2/INFO]: [Not Secure] <AbuRazen> udah level 20 pik echannya
-[15:52:44] [Async Chat Thread - #3/INFO]: [Not Secure] <fikrahmalas> cukup kah
-[15:52:52] [Async Chat Thread - #3/INFO]: [Not Secure] <AbuRazen> blom
-[15:53:08] [Async Chat Thread - #3/INFO]: [Not Secure] <AbuRazen> sampe level 30 baru max
-[15:53:16] [Async Chat Thread - #3/INFO]: [Not Secure] <fikrahmalas> besok kita raid trial chamber
-[15:53:43] [Async Chat Thread - #3/INFO]: [Not Secure] <AbuRazen> turu
-[15:54:30] [Async Chat Thread - #2/INFO]: [Not Secure] <fikrahmalas> nah bagus ini
-[15:54:34] [Async Chat Thread - #2/INFO]: [Not Secure] <fikrahmalas> ini apaan
-[15:54:40] [Async Chat Thread - #2/INFO]: [Not Secure] <AbuRazen> kentang
-[15:54:44] [Async Chat Thread - #2/INFO]: [Not Secure] <fikrahmalas> oalah
-[15:55:00] [Async Chat Thread - #2/INFO]: [Not Secure] <fikrahmalas> mantap2
-[15:55:07] [Async Chat Thread - #2/INFO]: [Not Secure] <AbuRazen> sini liat
-[15:55:45] [Async Chat Thread - #2/INFO]: [Not Secure] <fikrahmalas> tinggal butuh berapa buku lagi?
-[15:55:48] [Async Chat Thread - #2/INFO]: [Not Secure] <AbuRazen> kurang 10 level lagi
-[15:56:00] [Async Chat Thread - #3/INFO]: [Not Secure] <fikrahmalas> bookshelf masih perlu kan
-[15:56:08] [Async Chat Thread - #3/INFO]: [Not Secure] <AbuRazen> 2 lagi
-[15:56:31] [Async Chat Thread - #3/INFO]: [Not Secure] <AbuRazen> kurang kulit sapi
-[15:56:56] [Async Chat Thread - #3/INFO]: [Not Secure] <fikrahmalas> oalah
-[15:58:13] [Async Chat Thread - #4/INFO]: [Not Secure] <fikrahmalas> bentar lagi server dimatiin
-[15:58:18] [Async Chat Thread - #4/INFO]: [Not Secure] <fikrahmalas> siapin dah barang2
-[15:58:35] [Async Chat Thread - #4/INFO]: [Not Secure] <fikrahmalas> apaan
-[16:00:03] [Server thread/INFO]: Stopping the server
-[16:00:03] [Server thread/INFO]: Stopping server
-[16:00:03] [Server thread/INFO]: [GSit] Disabling GSit v3.2.0
-[16:00:03] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[16:00:03] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.11
-[16:00:03] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.9.0.0
-[16:00:03] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
-[16:00:03] [Server thread/INFO]: Saving players
-[16:00:03] [Server thread/INFO]: fikrahmalas lost connection: Server closed
-[16:00:03] [Server thread/INFO]: fikrahmalas left the game
-[16:00:03] [Server thread/INFO]: AbuRazen lost connection: Server closed
-[16:00:03] [Server thread/INFO]: AbuRazen left the game
-[16:00:03] [Server thread/INFO]: Saving worlds
-[16:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 27 block chunks, 169 entity chunks, 0 poi chunks in world 'world' in 0.16s
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[16:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 14 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[16:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[16:00:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[16:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:00:03] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[16:00:03] [Server thread/INFO]: All I/O tasks to complete
-[16:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[16:00:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[16:50:14] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
+[16:50:14] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) for Minecraft 1.21.4
+[16:50:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:50:16] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[16:50:16] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - GSit (3.2.0), ImageFrame (1.9.0.0)
+[16:50:30] [ServerMain/WARN]: resource-pack-id missing, using default of 436ba9a3-3719-3e86-a13b-5992893888d1
+[16:50:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:50:37] [ServerMain/INFO]: Loaded 1370 recipes
+[16:50:37] [ServerMain/INFO]: Loaded 1481 advancements
+[16:50:37] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[16:50:37] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 395.9ms
+[16:50:37] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[16:50:37] [Server thread/INFO]: Loading properties
+[16:50:37] [Server thread/INFO]: This server is running Paper version 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[16:50:38] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:50:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:50:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:50:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[16:50:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[16:50:43] [Server thread/INFO]: Default game type: SURVIVAL
+[16:50:43] [Server thread/INFO]: Generating keypair
+[16:50:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:50:43] [Server thread/INFO]: Using epoll channel type
+[16:50:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:50:43] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[16:50:45] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.9.0.0
+[16:50:45] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.2.0
+[16:50:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:50:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:50:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:50:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:50:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:50:45] [Server thread/INFO]: Preparing level "world"
+[16:50:50] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
+[16:50:50] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) for Minecraft 1.21.4
+[16:50:52] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:50:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[16:50:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - GSit (3.2.0), ImageFrame (1.9[16:50[16:51:23] [ServerMain/WARN]: resource-pack-id missing, using default of 436ba9a3-3719-3e86-a13b-5992893888d1
+[16:51:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:51:23] [ServerMain/ERROR]: Failed to start the minecraft server
+net.minecraft.util.DirectoryLock$LockException: /workspaces/Menkrep-Anjay/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[paper-1.21.4.jar:1.21.4-60-0629524]
+	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[paper-1.21.4.jar:1.21.4-60-0629524]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:435) ~[paper-1.21.4.jar:1.21.4-60-0629524]
+	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:350) ~[paper-1.21.4.jar:1.21.4-60-0629524]
+	at net.minecraft.server.Main.main(Main.java:184) ~[paper-1.21.4.jar:1.21.4-60-0629524]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-60-0629524]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-60-0629524]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:51:22] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
+[16:51:22] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
+[16:51:22] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
+[16:51:22] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
+[16:51:22] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
+[16:51:22] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
+[16:51:22] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[16:51:22] [Server thread/INFO]: [GSit] Enabling GSit v3.2.0
+[16:51:22] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[16:51:23] [Server thread/INFO]: [spark] Starting background profiler...
+[16:51:26] [Server thread/INFO]: Done preparing level "world" (40.968s)
+[16:51:26] [Server thread/INFO]: Running delayed init tasks
+[16:51:26] [Server thread/INFO]: Done (79.071s)! For help, type "help"
+[16:51:27] [User Authenticator #0/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
+[16:51:27] [Server thread/INFO]: AbuRazen (/127.123.157.129:46475) lost connection: Disconnected
+[16:51:28] [Craft Scheduler Thread - 6 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
+[16:51:44] [User Authenticator #0/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[16:51:47] [Server thread/INFO]: fikrahmalas joined the game
+[16:51:47] [Server thread/INFO]: fikrahmalas[/127.37.158.58:44189] logged in with entity id 164 at ([world]251.96286324684888, -8.0, -1119.2934043071505)
+[16:51:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 4170a1dd-4ba0-420d-873a-efd8c0fdf08f, mapped to Bat['Bat'/202, uuid='4170a1dd-4ba0-420d-873a-efd8c0fdf08f', l='ServerLevel[world]', x=217.76, y=-26.78, z=-1072.25, cpos=[13, -68], tl=49, v=true], can't add Bat['Bat'/206, uuid='4170a1dd-4ba0-420d-873a-efd8c0fdf08f', l='ServerLevel[world]', x=216.43, y=-31.93, z=-1068.45, cpos=[13, -67], tl=145, v=false]
+[16:51:53] [User Authenticator #0/INFO]: UUID of player AbuRazen is 73445cf6-e61a-3541-9dc5-13755278d088
+[16:51:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2510ms or 50 ticks behind
+[16:52:03] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[16:52:04] [Server thread/INFO]: AbuRazen joined the game
+[16:52:04] [Server thread/INFO]: AbuRazen[/127.123.157.129:41221] logged in with entity id 392 at ([world]275.9689712168969, -12.0, -1126.830810880124)
+[16:52:30] [Async Chat Thread - #0/INFO]: [Not Secure] <AbuRazen> pada kemana?
+[16:52:34] [Async Chat Thread - #1/INFO]: [Not Secure] <fikrahmalas> ntah
+[16:52:45] [Async Chat Thread - #0/INFO]: [Not Secure] <AbuRazen> lag kyknya
+[16:55:19] [Async Chat Thread - #3/INFO]: [Not Secure] <AbuRazen> ke atas pik
+[16:55:36] [Async Chat Thread - #3/INFO]: [Not Secure] <fikrahmalas> kayanya pada udahan
+[16:55:43] [Async Chat Thread - #2/INFO]: [Not Secure] <fikrahmalas> sini aja dulu
+[16:55:52] [Async Chat Thread - #2/INFO]: [Not Secure] <fikrahmalas> biar ke atasnya bareng
+[16:56:07] [Async Chat Thread - #2/INFO]: [Not Secure] <fikrahmalas> dahan dulu pan
+[16:56:14] [Async Chat Thread - #2/INFO]: [Not Secure] <fikrahmalas> thank you
+[16:56:17] [Server thread/INFO]: fikrahmalas lost connection: Disconnected
+[16:56:17] [Server thread/INFO]: fikrahmalas left the game
+[16:56:19] [Async Chat Thread - #3/INFO]: [Not Secure] <AbuRazen> ruby pen mabar
+[16:57:19] [Server thread/INFO]: Stopping the server
+[16:57:19] [Server thread/INFO]: Stopping server
+[16:57:19] [Server thread/INFO]: [GSit] Disabling GSit v3.2.0
+[16:57:19] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[16:57:19] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.9.0.0
+[16:57:19] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[16:57:19] [Server thread/INFO]: Saving players
+[16:57:19] [Server thread/INFO]: AbuRazen lost connection: Server closed
+[16:57:19] [Server thread/INFO]: AbuRazen left the game
+[16:57:19] [Server thread/INFO]: Saving worlds
+[16:57:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:57:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:57:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:57:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Saved 296 block chunks, 484 entity chunks, 0 poi chunks in world 'world' in 2.91s
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:57:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:57:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:57:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:57:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:57:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:57:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:57:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:57:22] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[16:57:22] [Server thread/INFO]: All I/O tasks to complete
+[16:57:22] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:57:22] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
