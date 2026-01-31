@@ -68,3 +68,40 @@
 [10:06:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 16fbc4b0-de8e-4aca-8f1e-c070f845249f, mapped to Bat['Bat'/312, uuid='16fbc4b0-de8e-4aca-8f1e-c070f845249f', l='ServerLevel[world]', x=577.47, y=66.77, z=-415.71, cpos=[36, -26], tl=557, v=true], can't add Bat['Bat'/324, uuid='16fbc4b0-de8e-4aca-8f1e-c070f845249f', l='ServerLevel[world]', x=579.91, y=67.05, z=-417.76, cpos=[36, -27], tl=567, v=false]
 [10:32:34] [Server thread/INFO]: fikrahmalas lost connection: Disconnected
 [10:32:34] [Server thread/INFO]: fikrahmalas left the game
+[10:33:50] [Server thread/INFO]: Stopping the server
+[10:33:50] [Server thread/INFO]: Stopping server
+[10:33:50] [Server thread/INFO]: [GSit] Disabling GSit v3.2.0
+[10:33:50] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[10:33:50] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.9.0.0
+[10:33:50] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[10:33:50] [Server thread/INFO]: Saving players
+[10:33:50] [Server thread/INFO]: Saving worlds
+[10:33:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 92 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[10:33:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[10:33:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[10:33:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[10:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:33:50] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[10:33:50] [Server thread/INFO]: All I/O tasks to complete
+[10:33:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[10:33:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
