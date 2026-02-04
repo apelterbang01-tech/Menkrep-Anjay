@@ -1,487 +1,518 @@
-[13:25:49] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
-[13:25:49] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) for Minecraft 1.21.4
-[13:25:49] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:25:50] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[13:25:50] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[11:18:09] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Microsoft Microsoft-12574222) on Linux 6.8.0-1030-azure (amd64)
+[11:18:09] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) for Minecraft 1.21.4
+[11:18:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:18:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[11:18:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - GSit (3.2.0), ImageFrame (1.9.0.0)
-[13:25:57] [ServerMain/WARN]: resource-pack-id missing, using default of 436ba9a3-3719-3e86-a13b-5992893888d1
-[13:25:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:26:01] [ServerMain/INFO]: Loaded 1370 recipes
-[13:26:01] [ServerMain/INFO]: Loaded 1481 advancements
-[13:26:01] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[13:26:01] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 269.8ms
-[13:26:01] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[13:26:01] [Server thread/INFO]: Loading properties
-[13:26:01] [Server thread/INFO]: This server is running Paper version 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[13:26:01] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:26:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:26:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:26:03] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[13:26:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[13:26:04] [Server thread/INFO]: Default game type: SURVIVAL
-[13:26:04] [Server thread/INFO]: Generating keypair
-[13:26:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:26:04] [Server thread/INFO]: Using default channel type
-[13:26:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:26:04] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[13:26:04] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.9.0.0
-[13:26:04] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.2.0
-[13:26:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:26:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:26:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:26:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:26:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:26:04] [Server thread/INFO]: Preparing level "world"
-[13:26:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:26:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:26:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:26:06] [Server thread/INFO]: Preparing spawn area: 0%
-[13:26:08] [Server thread/INFO]: Preparing spawn area: 2%
-[13:26:08] [Server thread/INFO]: Preparing spawn area: 2%
-[13:26:08] [Server thread/INFO]: Preparing spawn area: 2%
-[13:26:08] [Server thread/INFO]: Time elapsed: 2580 ms
-[13:26:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:26:08] [Server thread/INFO]: Preparing spawn area: 0%
-[13:26:09] [Server thread/INFO]: Preparing spawn area: 61%
-[13:26:09] [Server thread/INFO]: Time elapsed: 559 ms
-[13:26:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:26:09] [Server thread/INFO]: Preparing spawn area: 0%
-[13:26:09] [Server thread/INFO]: Time elapsed: 350 ms
-[13:26:09] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.9.0.0
-[13:26:21] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
-[13:26:21] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
-[13:26:21] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
-[13:26:21] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
-[13:26:21] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
-[13:26:21] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
-[13:26:21] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
-[13:26:21] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
-[13:26:21] [Server thread/INFO]: [GSit] Enabling GSit v3.2.0
-[13:26:21] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[13:26:22] [Server thread/INFO]: [spark] Starting background profiler...
-[13:26:23] [Server thread/INFO]: Done preparing level "world" (18.635s)
-[13:26:23] [Server thread/INFO]: Running delayed init tasks
-[13:26:23] [Server thread/INFO]: Done (36.792s)! For help, type "help"
-[13:26:24] [Craft Scheduler Thread - 1 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
-[13:30:23] [User Authenticator #0/INFO]: UUID of player Malikism is 3111e11d-a8d8-38cb-91d5-3634898fe22d
-[13:30:39] [Server thread/INFO]: Malikism joined the game
-[13:30:39] [Server thread/INFO]: Malikism[/127.145.48.104:57231] logged in with entity id 332 at ([world]787.9826766699105, 16.0, -1209.733128753306)
-[13:55:55] [Server thread/INFO]: Malikism lost connection: Disconnected
-[13:55:55] [Server thread/INFO]: Malikism left the game
-[14:04:14] [User Authenticator #1/INFO]: UUID of player Malikism is 3111e11d-a8d8-38cb-91d5-3634898fe22d
-[14:04:23] [Server thread/INFO]: Malikism joined the game
-[14:04:23] [Server thread/INFO]: Malikism[/127.145.48.104:43053] logged in with entity id 3784 at ([world]706.6999999880791, 12.0, -1349.401669625188)
-[14:05:50] [Server thread/INFO]: Malikism lost connection: Disconnected
-[14:05:50] [Server thread/INFO]: Malikism left the game
-[14:25:42] [User Authenticator #2/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
-[14:25:45] [Server thread/INFO]: fikrahmalas joined the game
-[14:25:45] [Server thread/INFO]: fikrahmalas[/127.188.49.132:41485] logged in with entity id 4217 at ([world]1284.6854732500483, 62.110764312744145, -2127.687125687957)
-[14:33:48] [User Authenticator #3/INFO]: UUID of player Malikism is 3111e11d-a8d8-38cb-91d5-3634898fe22d
-[14:33:54] [Server thread/INFO]: Malikism joined the game
-[14:33:54] [Server thread/INFO]: Malikism[/127.145.48.104:54007] logged in with entity id 7822 at ([world]693.3680809901136, 8.0, -1309.1936491425959)
-[14:34:09] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> toi
-[14:34:13] [Async Chat Thread - #0/INFO]: [Not Secure] <Malikism> lah
-[14:34:17] [Async Chat Thread - #1/INFO]: [Not Secure] <Malikism> di list 0 jior
-[14:34:33] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> ngelek kali tu
-[14:34:38] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> ikut berpetualang gak
-[14:34:50] [Async Chat Thread - #1/INFO]: [Not Secure] <Malikism> lagi goa
-[14:34:54] [Async Chat Thread - #0/INFO]: [Not Secure] <Malikism> herobrine tah iki?
-[14:35:01] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> apatuh
-[14:35:04] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> herobrine
-[14:35:17] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> siapa herobrine?
-[14:35:19] [Async Chat Thread - #0/INFO]: [Not Secure] <Malikism> kau
-[14:35:26] [Async Chat Thread - #1/INFO]: [Not Secure] <fikrahmalas> hmmm
-[14:35:43] [Async Chat Thread - #1/INFO]: [Not Secure] <Malikism> pahlawan brian
-[14:36:10] [Async Chat Thread - #1/INFO]: [Not Secure] <fikrahmalas> gua lagi menjelajahi lautan
-[14:36:15] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> cosplay bajak laut
-[14:36:19] [Async Chat Thread - #0/INFO]: [Not Secure] <Malikism> ikut
-[14:36:25] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> tp sini
-[14:36:36] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> sa sudah terlalu jauh
-[14:36:59] [Server thread/INFO]: Malikism was blown up by Creeper
-[14:37:02] [Async Chat Thread - #0/INFO]: [Not Secure] <fikrahmalas> wailah
-[14:37:38] [Server thread/INFO]: fikrahmalas issued server command: /tp Malikism 693 8 -1309
-[14:37:38] [Server thread/INFO]: [fikrahmalas: Teleported Malikism to 693.500000, 8.000000, -1308.500000]
-[14:37:47] [Async Chat Thread - #1/INFO]: [Not Secure] <Malikism> hah
-[14:37:50] [Async Chat Thread - #1/INFO]: [Not Secure] <fikrahmalas> cari barang2 mu dulu sana
-[14:38:36] [Async Chat Thread - #1/INFO]: [Not Secure] <fikrahmalas> tp sini lik
-[14:39:56] [Server thread/INFO]: fikrahmalas issued server command: /msg @s 960 62 -2770
-[14:40:00] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> kok lu tau gw diamna jior
-[14:40:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> jir
-[14:40:13] [Async Chat Thread - #2/INFO]: [Not Secure] <fikrahmalas> kan emang koordinat goa sekitaran situ kan
-[14:40:25] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> hah?
-[14:40:30] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> pure feeling?
-[14:40:30] [Async Chat Thread - #2/INFO]: [Not Secure] <fikrahmalas> iya
-[14:40:41] [Async Chat Thread - #4/INFO]: [Not Secure] <Malikism> boong jir
-[14:40:44] [Async Chat Thread - #4/INFO]: [Not Secure] <fikrahmalas> bukan, koordinat goa kemarin emang sekitaran situ kan
-[14:40:44] [Async Chat Thread - #4/INFO]: [Not Secure] <Malikism> herorine
-[14:40:53] [Async Chat Thread - #3/INFO]: [Not Secure] <fikrahmalas> masih apal gua
-[14:41:05] [Async Chat Thread - #4/INFO]: [Not Secure] <Malikism> masalahnya beda bbrp block doang
-[14:41:11] [Async Chat Thread - #4/INFO]: [Not Secure] <Malikism> tenks b
-[14:41:13] [Async Chat Thread - #4/INFO]: [Not Secure] <fikrahmalas> yo
-[14:41:24] [Async Chat Thread - #4/INFO]: [Not Secure] <fikrahmalas> asall aja ini
-[14:41:32] [Async Chat Thread - #4/INFO]: [Not Secure] <fikrahmalas> untung aja gak kedalem blok tpnya
-[14:42:09] [Async Chat Thread - #4/INFO]: [Not Secure] <fikrahmalas> gua apalin range2 nya aja kisaran berapa
-[14:42:46] [Async Chat Thread - #3/INFO]: [Not Secure] <fikrahmalas> sini lik
-[14:42:51] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> bentar
-[14:43:06] [Async Chat Thread - #4/INFO]: [Not Secure] <fikrahmalas> i found kapal karam asli cibaduyut
-[14:43:30] [Async Chat Thread - #4/INFO]: [Not Secure] <Malikism> ih
-[14:43:32] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> jomoknyo
-[14:43:37] [Async Chat Thread - #3/INFO]: [Not Secure] <fikrahmalas> kok jomok
-[14:43:40] [Async Chat Thread - #3/INFO]: [Not Secure] <fikrahmalas> kok tau
-[14:43:45] [Async Chat Thread - #3/INFO]: [Not Secure] <fikrahmalas> hayoo
-[14:44:49] [Async Chat Thread - #6/INFO]: [Not Secure] <Malikism> bentar aku balik\
-[14:44:52] [Async Chat Thread - #5/INFO]: [Not Secure] <Malikism> em
-[14:44:53] [Async Chat Thread - #6/INFO]: [Not Secure] <Malikism> gatau
-[14:44:57] [Async Chat Thread - #6/INFO]: [Not Secure] <fikrahmalas> hah
-[14:44:58] [Async Chat Thread - #6/INFO]: [Not Secure] <Malikism> aku tau jomok dari celsi
-[14:45:01] [Async Chat Thread - #6/INFO]: [Not Secure] <Malikism> celsi jomok
-[14:45:05] [Async Chat Thread - #5/INFO]: [Not Secure] <fikrahmalas> wailah
-[14:45:07] [Async Chat Thread - #5/INFO]: [Not Secure] <fikrahmalas> gak ekspek
-[14:45:15] [Async Chat Thread - #5/INFO]: [Not Secure] <fikrahmalas> tbalik ke base?
-[14:46:13] [Async Chat Thread - #6/INFO]: [Not Secure] <fikrahmalas> bersiaplah
-[14:46:53] [Server thread/INFO]: fikrahmalas issued server command: /tp Malikism 451 75 -351
-[14:46:53] [Server thread/INFO]: [fikrahmalas: Teleported Malikism to 451.500000, 75.000000, -350.500000]
-[14:46:59] [Async Chat Thread - #6/INFO]: [Not Secure] <Malikism> anjay
-[14:47:00] [Async Chat Thread - #5/INFO]: [Not Secure] <Malikism> citer
-[14:47:11] [Async Chat Thread - #5/INFO]: [Not Secure] <fikrahmalas> kepala gua isina angka
-[14:47:25] [Async Chat Thread - #5/INFO]: [Not Secure] <Malikism> ayo pik
-[14:47:28] [Async Chat Thread - #5/INFO]: [Not Secure] <Malikism> mana ko
-[14:47:29] [Async Chat Thread - #5/INFO]: [Not Secure] <fikrahmalas> tp kemana tadi lu
-[14:47:36] [Async Chat Thread - #5/INFO]: [Not Secure] <fikrahmalas> air ya?
-[14:47:36] [Async Chat Thread - #6/INFO]: [Not Secure] <Malikism> base
-[14:47:37] [Async Chat Thread - #6/INFO]: [Not Secure] <Malikism> aman
-[14:47:38] [Async Chat Thread - #6/INFO]: [Not Secure] <Malikism> iya
-[14:47:45] [Async Chat Thread - #6/INFO]: [Not Secure] <fikrahmalas> sip
-[14:47:49] [Async Chat Thread - #6/INFO]: [Not Secure] <Malikism> mana ko pik
-[14:47:50] [Async Chat Thread - #6/INFO]: [Not Secure] <Malikism> tenks
-[14:48:00] [Async Chat Thread - #6/INFO]: [Not Secure] <fikrahmalas> kalo bukan air gua takut ketinggian salah mati ko nanti
-[14:48:07] [Async Chat Thread - #5/INFO]: [Not Secure] <Malikism> aman aja pik
-[14:48:09] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> mana ko
-[14:48:15] [Async Chat Thread - #7/INFO]: [Not Secure] <fikrahmalas> tp bae lah
-[14:48:20] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> curang
-[14:48:25] [Async Chat Thread - #7/INFO]: [Not Secure] <fikrahmalas> sa sudah terlalu jauh
-[14:48:28] [Server thread/INFO]: Malikism issued server command: /tp Malikism fikrahmalas
-[14:48:28] [Server thread/INFO]: [Malikism: Teleported Malikism to fikrahmalas]
-[14:48:33] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> jir
-[14:48:37] [Async Chat Thread - #7/INFO]: [Not Secure] <fikrahmalas> di bawah
-[14:48:48] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> uwogh\
-[14:48:58] [Async Chat Thread - #7/INFO]: [Not Secure] <fikrahmalas> adap apa
-[14:49:29] [Async Chat Thread - #7/INFO]: [Not Secure] <fikrahmalas> ambil coast lik
-[14:49:33] [Async Chat Thread - #7/INFO]: [Not Secure] <fikrahmalas> ada di dalam
-[14:49:33] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> apa itu
-[14:50:03] [Async Chat Thread - #7/INFO]: [Not Secure] <fikrahmalas> udah semua?
-[14:50:13] [Async Chat Thread - #5/INFO]: [Not Secure] <Malikism> sa punya darah
-[14:50:16] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> low
-[14:50:47] [Async Chat Thread - #5/INFO]: [Not Secure] <fikrahmalas> gua dapat peta
-[14:51:11] [Async Chat Thread - #5/INFO]: [Not Secure] <fikrahmalas> tapi kebakar
-[14:51:37] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> udah kayaknya
-[14:52:05] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> mana mapnya
-[14:52:10] [Async Chat Thread - #7/INFO]: [Not Secure] <fikrahmalas> tadi barusan
-[14:52:13] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> jatoh jir
-[14:52:29] [Async Chat Thread - #5/INFO]: [Not Secure] <fikrahmalas> nih
-[14:52:59] [Async Chat Thread - #7/INFO]: [Not Secure] <fikrahmalas> bacanya gimana tuh kalo diujung gitu
-[14:53:00] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> thx
-[14:53:14] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> aman saja
-[14:54:17] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> ini arhanya kemana dah
-[14:54:20] [Async Chat Thread - #8/INFO]: [Not Secure] <fikrahmalas> tnah kan
-[14:54:49] [Async Chat Thread - #9/INFO]: [Not Secure] <fikrahmalas> wih kapal lagi
-[14:54:55] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> jir
-[14:55:05] [Async Chat Thread - #9/INFO]: [Not Secure] <fikrahmalas> kapal titanik karam kah
-[14:55:32] [Async Chat Thread - #9/INFO]: [Not Secure] <Malikism> kapal karam boyolali ini
-[14:55:34] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> beda
-[14:55:38] [Server thread/INFO]: fikrahmalas drowned
-[14:55:45] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas Malikism
-[14:55:45] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to Malikism]
-[14:56:18] [Async Chat Thread - #9/INFO]: [Not Secure] <Malikism> cari magma dulu kali ya
-[14:56:55] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> ambil pik
-[14:57:19] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> pik
-[14:57:31] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> arah sana
-[14:57:56] [Server thread/INFO]: Malikism drowned
-[14:58:01] [Server thread/INFO]: Malikism issued server command: /tp Malikism fikrahmalas
-[14:58:01] [Server thread/INFO]: [Malikism: Teleported Malikism to fikrahmalas]
-[14:58:14] [Async Chat Thread - #8/INFO]: [Not Secure] <fikrahmalas> yang tengah udah
-[14:58:25] [Async Chat Thread - #8/INFO]: [Not Secure] <fikrahmalas> gak ada yang spesial
-[14:59:09] [Async Chat Thread - #8/INFO]: [Not Secure] <fikrahmalas> udah semuanya kayanya
-[15:00:03] [Async Chat Thread - #8/INFO]: [Not Secure] <fikrahmalas> nyari apa lik
-[15:00:06] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> pedang
-[15:00:08] [Async Chat Thread - #9/INFO]: [Not Secure] <fikrahmalas> tnih
-[15:00:22] [Async Chat Thread - #9/INFO]: [Not Secure] <Malikism> sip
-[15:00:25] [Async Chat Thread - #9/INFO]: [Not Secure] <Malikism> tens
-[15:00:36] [Async Chat Thread - #9/INFO]: [Not Secure] <Malikism> ayo pik
-[15:01:29] [Async Chat Thread - #9/INFO]: [Not Secure] <fikrahmalas> apatu
-[15:01:39] [Async Chat Thread - #9/INFO]: [Not Secure] <Malikism> apa
-[15:02:00] [Async Chat Thread - #8/INFO]: [Not Secure] <fikrahmalas> liiik
-[15:02:05] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> salah arah
-[15:03:30] [Async Chat Thread - #11/INFO]: [Not Secure] <Malikism> apa tuh
-[15:03:37] [Async Chat Thread - #11/INFO]: [Not Secure] <Malikism> eh ini salah lagi arahnya
-[15:03:46] [Async Chat Thread - #10/INFO]: [Not Secure] <fikrahmalas> liiikkk
-[15:04:34] [Async Chat Thread - #10/INFO]: [Not Secure] <Malikism> apa
-[15:04:55] [Async Chat Thread - #11/INFO]: [Not Secure] <fikrahmalas> coba f5
-[15:05:08] [Async Chat Thread - #10/INFO]: [Not Secure] <Malikism> ada apa
-[15:05:39] [Async Chat Thread - #11/INFO]: [Not Secure] <Malikism> kau mana
-[15:05:45] [Async Chat Thread - #11/INFO]: [Not Secure] <fikrahmalas> nah itu dia
-[15:05:53] [Async Chat Thread - #11/INFO]: [Not Secure] <fikrahmalas> sa terjatuh dan tak bisa bangkit lagi
-[15:05:55] [Async Chat Thread - #11/INFO]: [Not Secure] <Malikism> naon jir
-[15:06:02] [Async Chat Thread - #11/INFO]: [Not Secure] <Malikism> jatuh di air?
-[15:06:09] [Async Chat Thread - #11/INFO]: [Not Secure] <fikrahmalas> sa tenggelam dalam lautan luka dalam
-[15:06:15] [Async Chat Thread - #11/INFO]: [Not Secure] <Malikism> kok bisa napas
-[15:06:20] [Async Chat Thread - #10/INFO]: [Not Secure] <fikrahmalas> sa tersesat dan taktau arah jalan pulang
-[15:06:34] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas Malikism
-[15:06:34] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to Malikism]
-[15:06:35] [Async Chat Thread - #10/INFO]: [Not Secure] <Malikism> ko jadi butiran debu?
-[15:06:41] [Async Chat Thread - #10/INFO]: [Not Secure] <fikrahmalas> ndak jadi
-[15:06:52] [Async Chat Thread - #11/INFO]: [Not Secure] <fikrahmalas> sa sudah naik lagi ke kapal
-[15:10:48] [Server thread/INFO]: fikrahmalas issued server command: /title @a title {"text":"ADMIN ", "color":"white", "text":"BINGUNG", "color":"red"}
-[15:10:48] [Server thread/INFO]: [fikrahmalas: Showing new title for 2 players]
-[15:10:59] [Async Chat Thread - #12/INFO]: [Not Secure] <Malikism> benar ini
-[15:11:15] [Server thread/INFO]: fikrahmalas issued server command: /title @a title {"text":"ADMIN MULAI KEBINGUNGAN", "color":"white"}
-[15:11:15] [Server thread/INFO]: [fikrahmalas: Showing new title for 2 players]
-[15:12:05] [Async Chat Thread - #13/INFO]: [Not Secure] <fikrahmalas> su benar kah?
-[15:12:08] [Async Chat Thread - #13/INFO]: [Not Secure] <Malikism> benar
-[15:12:11] [Async Chat Thread - #14/INFO]: [Not Secure] <fikrahmalas> twuhh apa tuh
-[15:12:16] [Async Chat Thread - #13/INFO]: [Not Secure] <fikrahmalas> obsidian di depan
-[15:12:19] [Async Chat Thread - #14/INFO]: [Not Secure] <Malikism> bawah sini
-[15:12:29] [Async Chat Thread - #13/INFO]: [Not Secure] <fikrahmalas> mana
-[15:12:53] [Async Chat Thread - #14/INFO]: [Not Secure] <fikrahmalas> sini
-[15:15:04] [Async Chat Thread - #15/INFO]: [Not Secure] <fikrahmalas> ambil sisanya
-[15:15:08] [Async Chat Thread - #15/INFO]: [Not Secure] <fikrahmalas> gua penuh
-[15:15:24] [Server thread/INFO]: Malikism drowned
-[15:15:27] [Async Chat Thread - #16/INFO]: [Not Secure] <fikrahmalas> yooo
-[15:15:30] [Server thread/INFO]: Malikism issued server command: /tp Malikism fikrahmalas
-[15:15:30] [Server thread/INFO]: [Malikism: Teleported Malikism to fikrahmalas]
-[15:15:55] [Async Chat Thread - #15/INFO]: [Not Secure] <fikrahmalas> tcepat2
-[15:17:12] [Async Chat Thread - #17/INFO]: [Not Secure] <fikrahmalas> siuni
-[15:17:24] [Async Chat Thread - #18/INFO]: [Not Secure] <fikrahmalas> ada reruntuhan
-[15:17:57] [Async Chat Thread - #17/INFO]: [Not Secure] <fikrahmalas> tidak worth it
-[15:18:13] [Async Chat Thread - #17/INFO]: [Not Secure] <Malikism> ada harta lagi
-[15:18:29] [Async Chat Thread - #17/INFO]: [Not Secure] <Malikism> mau tak
-[15:18:33] [Async Chat Thread - #17/INFO]: [Not Secure] <fikrahmalas> mana
-[15:18:53] [Async Chat Thread - #17/INFO]: [Not Secure] <Malikism> mau tak
-[15:19:01] [Async Chat Thread - #17/INFO]: [Not Secure] <fikrahmalas> mau2
-[15:19:32] [Async Chat Thread - #18/INFO]: [Not Secure] <Malikism> kapal lagi pik
-[15:20:20] [Async Chat Thread - #17/INFO]: [Not Secure] <Malikism> pik kapal
-[15:20:22] [Async Chat Thread - #17/INFO]: [Not Secure] <fikrahmalas> dimana
-[15:20:24] [Async Chat Thread - #17/INFO]: [Not Secure] <Malikism> boat
-[15:20:27] [Async Chat Thread - #18/INFO]: [Not Secure] <Malikism> buat boat
-[15:20:42] [Async Chat Thread - #18/INFO]: [Not Secure] <fikrahmalas> yang tadi mana atuh
-[15:20:44] [Async Chat Thread - #17/INFO]: [Not Secure] <Malikism> batak
-[15:20:47] [Async Chat Thread - #17/INFO]: [Not Secure] <Malikism> ayo berlayar
-[15:20:51] [Async Chat Thread - #17/INFO]: [Not Secure] <Malikism> boatnya di ko
-[15:20:57] [Async Chat Thread - #17/INFO]: [Not Secure] <Malikism> eh
-[15:20:57] [Async Chat Thread - #17/INFO]: [Not Secure] <fikrahmalas> ndak ada
-[15:22:10] [Async Chat Thread - #19/INFO]: [Not Secure] <Malikism> jalan
-[15:22:31] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> villagne
-[15:22:33] [Async Chat Thread - #19/INFO]: [Not Secure] <Malikism> vilage dulu
-[15:23:05] [Async Chat Thread - #19/INFO]: [Not Secure] <Malikism> ko jangan jarah
-[15:23:07] [Async Chat Thread - #19/INFO]: [Not Secure] <Malikism> kasian
-[15:23:11] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> ndak
-[15:23:24] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> tcuma bangunin orang
-[15:23:50] [Async Chat Thread - #20/INFO]: [Not Secure] <Malikism> bentar
-[15:23:52] [Async Chat Thread - #20/INFO]: [Not Secure] <Malikism> sa bingung
-[15:25:42] [Async Chat Thread - #21/INFO]: [Not Secure] <Malikism> hir
-[15:26:58] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> sini
-[15:27:12] [Async Chat Thread - #23/INFO]: [Not Secure] <Malikism> tau darimana ko
-[15:27:19] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> feeling aja
-[15:27:44] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> mana lik
-[15:28:05] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> sini2
-[15:28:16] [Async Chat Thread - #23/INFO]: [Not Secure] <Malikism> wow
-[15:29:02] [Async Chat Thread - #23/INFO]: [Not Secure] <fikrahmalas> ayo menjelajah lagi
-[15:29:33] [Async Chat Thread - #23/INFO]: [Not Secure] <Malikism> kosetir
-[15:31:05] [Async Chat Thread - #25/INFO]: [Not Secure] <Malikism> jangan hutan
-[15:31:08] [Async Chat Thread - #26/INFO]: [Not Secure] <Malikism> deket kita itu
-[15:32:59] [Async Chat Thread - #27/INFO]: [Not Secure] <Malikism> cari farland
-[15:33:32] [Async Chat Thread - #27/INFO]: [Not Secure] <fikrahmalas> kejauhan atuh
-[15:33:46] [Async Chat Thread - #27/INFO]: [Not Secure] <fikrahmalas> wih
-[15:33:50] [Async Chat Thread - #28/INFO]: [Not Secure] <Malikism> apa tuh
-[15:33:52] [Async Chat Thread - #28/INFO]: [Not Secure] <fikrahmalas> apa ni
-[15:34:06] [Async Chat Thread - #28/INFO]: [Not Secure] <Malikism> hah\
-[15:34:08] [Async Chat Thread - #28/INFO]: [Not Secure] <Malikism> nether portak
-[15:34:34] [Async Chat Thread - #28/INFO]: [Not Secure] <fikrahmalas> peradaban yang tenggelam kah
-[15:34:45] [Async Chat Thread - #28/INFO]: [Not Secure] <fikrahmalas> weh kapal
-[15:34:48] [Async Chat Thread - #27/INFO]: [Not Secure] <Malikism> noooo
-[15:35:22] [Async Chat Thread - #27/INFO]: [Not Secure] <fikrahmalas> penyebab segitiga bermuda magma block kah
-[15:36:07] [Async Chat Thread - #27/INFO]: [Not Secure] <fikrahmalas> tbeneran jadi kapal karam jir
-[15:37:39] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> nyari kerajaan neptunus
-[15:38:25] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> itu kapal karam yang tadi kah?
-[15:38:33] [Async Chat Thread - #29/INFO]: [Not Secure] <Malikism> coba deh
-[15:38:46] [Async Chat Thread - #30/INFO]: [Not Secure] <fikrahmalas> o+iya
-[15:38:50] [Async Chat Thread - #29/INFO]: [Not Secure] <Malikism> beda
-[15:38:59] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> iyakah
-[15:39:25] [Async Chat Thread - #30/INFO]: [Not Secure] <Malikism> sama kah?
-[15:39:28] [Async Chat Thread - #30/INFO]: [Not Secure] <fikrahmalas> tsama
-[15:40:18] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> ni juga yang tadi deh
-[15:40:21] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> tkayanya'
-[15:40:29] [Async Chat Thread - #29/INFO]: [Not Secure] <Malikism> kiri aja pik
-[15:42:05] [Async Chat Thread - #31/INFO]: [Not Secure] <Malikism> pik
-[15:42:09] [Async Chat Thread - #31/INFO]: [Not Secure] <Malikism> kok gada wipe barang
-[15:42:18] [Async Chat Thread - #31/INFO]: [Not Secure] <fikrahmalas> maksudnya?
-[15:42:24] [Async Chat Thread - #31/INFO]: [Not Secure] <Malikism> gada wipe 30 menit sekali
-[15:42:27] [Async Chat Thread - #31/INFO]: [Not Secure] <Malikism> kan harusnyua ada
-[15:42:27] [Async Chat Thread - #32/INFO]: [Not Secure] <fikrahmalas> ada kok
-[15:42:31] [Async Chat Thread - #32/INFO]: [Not Secure] <Malikism> gada jir
-[15:43:05] [Async Chat Thread - #32/INFO]: [Not Secure] <fikrahmalas> tkita harus ke deep ocean
-[15:43:22] [Async Chat Thread - #32/INFO]: [Not Secure] <Malikism> kanan ga sih pik\
-[15:43:26] [Async Chat Thread - #31/INFO]: [Not Secure] <Malikism> ini kayaknya kita balik lagi
-[15:44:28] [Async Chat Thread - #33/INFO]: [Not Secure] <Malikism> ada titit
-[15:44:34] [Async Chat Thread - #34/INFO]: [Not Secure] <fikrahmalas> awokawok
-[15:44:39] [Async Chat Thread - #34/INFO]: [Not Secure] <Malikism> baru itu\
-[15:44:39] [Async Chat Thread - #34/INFO]: [Not Secure] <fikrahmalas> kapal karam baru
-[15:45:15] [Async Chat Thread - #34/INFO]: [Not Secure] <fikrahmalas> dapat peda
-[15:45:53] [Async Chat Thread - #34/INFO]: [Not Secure] <fikrahmalas> tdah yuk
-[15:46:05] [Async Chat Thread - #34/INFO]: [Not Secure] <fikrahmalas> ini pedanya baca
-[15:48:24] [Async Chat Thread - #35/INFO]: [Not Secure] <fikrahmalas> mana
-[15:48:34] [Async Chat Thread - #35/INFO]: [Not Secure] <Malikism> lah iniu jir
-[15:48:37] [Async Chat Thread - #35/INFO]: [Not Secure] <fikrahmalas> lahh
-[15:48:40] [Async Chat Thread - #36/INFO]: [Not Secure] <Malikism> lahhh
-[15:48:45] [Async Chat Thread - #35/INFO]: [Not Secure] <Malikism> lu peta mana jirr
-[15:48:53] [Async Chat Thread - #36/INFO]: [Not Secure] <Malikism> nguwawor
-[15:48:55] [Async Chat Thread - #36/INFO]: [Not Secure] <fikrahmalas> titu jir
-[15:49:02] [Async Chat Thread - #36/INFO]: [Not Secure] <Malikism> dua chest?
-[15:49:04] [Async Chat Thread - #35/INFO]: [Not Secure] <fikrahmalas> barusan diambil dari kapal karam
-[15:49:35] [Async Chat Thread - #36/INFO]: [Not Secure] <fikrahmalas> bisa jadi mereka satu kelompok bajak laut
-[15:49:38] [Async Chat Thread - #36/INFO]: [Not Secure] <Malikism> dua chest kah
-[15:49:43] [Async Chat Thread - #35/INFO]: [Not Secure] <fikrahmalas> harta karunnya ngarah ke arah yang sama
-[15:50:03] [Async Chat Thread - #35/INFO]: [Not Secure] <fikrahmalas> tuh peta yang sebelumnya masih ada atuh
-[15:50:24] [Async Chat Thread - #35/INFO]: [Not Secure] <Malikism> ayo
-[15:50:27] [Async Chat Thread - #35/INFO]: [Not Secure] <fikrahmalas> tvillage dlu deh bentar
-[15:50:27] [Async Chat Thread - #35/INFO]: [Not Secure] <Malikism> sapusir
-[15:50:35] [Async Chat Thread - #35/INFO]: [Not Secure] <fikrahmalas> tnyari pembuat peta
-[15:51:43] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas Malikism
-[15:51:43] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to Malikism]
-[15:52:35] [Async Chat Thread - #38/INFO]: [Not Secure] <fikrahmalas> cari kang buat peta lik
-[15:53:05] [Async Chat Thread - #38/INFO]: [Not Secure] <Malikism> gada galileo
-[15:53:46] [Async Chat Thread - #37/INFO]: [Not Secure] <Malikism> pik
-[15:53:49] [Async Chat Thread - #38/INFO]: [Not Secure] <Malikism> ini rumah aoaan jir
-[15:53:54] [Async Chat Thread - #37/INFO]: [Not Secure] <Malikism> ruymah subsidi
-[15:53:56] [Async Chat Thread - #37/INFO]: [Not Secure] <fikrahmalas> jir
-[15:54:21] [Async Chat Thread - #38/INFO]: [Not Secure] <Malikism> curi bed
-[15:54:23] [Async Chat Thread - #38/INFO]: [Not Secure] <fikrahmalas> gak ada galileo cuk
-[15:54:51] [Async Chat Thread - #38/INFO]: [Not Secure] <Malikism> yah
-[15:55:03] [Async Chat Thread - #37/INFO]: [Not Secure] <fikrahmalas> sdm desa ini kurang lik
-[15:55:09] [Async Chat Thread - #38/INFO]: [Not Secure] <fikrahmalas> harus banyakin lagi sekolahnya
-[15:55:23] [Async Chat Thread - #37/INFO]: [Not Secure] <Malikism> bentar
-[15:56:19] [Async Chat Thread - #37/INFO]: [Not Secure] <Malikism> ayo
-[15:56:29] [Async Chat Thread - #38/INFO]: [Not Secure] <Malikism> cari satu keping
-[15:57:03] [Async Chat Thread - #37/INFO]: [Not Secure] <fikrahmalas> ke biom deep ocean coba
-[15:57:11] [Async Chat Thread - #37/INFO]: [Not Secure] <Malikism> ayo
-[15:57:30] [Async Chat Thread - #38/INFO]: [Not Secure] <fikrahmalas> wih
-[15:57:32] [Async Chat Thread - #37/INFO]: [Not Secure] <fikrahmalas> apa tuh
-[15:57:58] [Async Chat Thread - #38/INFO]: [Not Secure] <Malikism> uwogh\
-[15:58:20] [Async Chat Thread - #38/INFO]: [Not Secure] <Malikism> sini
-[15:58:36] [Async Chat Thread - #38/INFO]: [Not Secure] <fikrahmalas> wooo
-[15:58:54] [Async Chat Thread - #38/INFO]: [Not Secure] <fikrahmalas> tini peta harta karun beda lagi
-[15:59:16] [Async Chat Thread - #38/INFO]: [Not Secure] <Malikism> feeling gw gaenak
-[15:59:43] [Async Chat Thread - #37/INFO]: [Not Secure] <fikrahmalas> kenapa
-[15:59:52] [Async Chat Thread - #38/INFO]: [Not Secure] <fikrahmalas> segitiga bermuda kah
-[16:00:39] [Async Chat Thread - #37/INFO]: [Not Secure] <fikrahmalas> mana
-[16:00:42] [Async Chat Thread - #38/INFO]: [Not Secure] <Malikism> sini
-[16:00:45] [Async Chat Thread - #37/INFO]: [Not Secure] <Malikism> nyebrang\
-[16:01:50] [Async Chat Thread - #39/INFO]: [Not Secure] <fikrahmalas> walah
-[16:01:56] [Async Chat Thread - #39/INFO]: [Not Secure] <Malikism> semua jalan menuju roma
-[16:01:59] [Async Chat Thread - #39/INFO]: [Not Secure] <fikrahmalas> awokawokawok
-[16:02:10] [Async Chat Thread - #39/INFO]: [Not Secure] <fikrahmalas> 2 KALI KENA SKEM HARTA KARUN
-[16:02:21] [Async Chat Thread - #39/INFO]: [Not Secure] <Malikism> ada berapa harta karun disini jir
-[16:02:29] [Async Chat Thread - #39/INFO]: [Not Secure] <fikrahmalas> sama kali
-[16:02:34] [Async Chat Thread - #39/INFO]: [Not Secure] <fikrahmalas> coba liat petanya
-[16:04:13] [Async Chat Thread - #41/INFO]: [Not Secure] <fikrahmalas> ah gak ada
-[16:04:33] [Async Chat Thread - #41/INFO]: [Not Secure] <Malikism> kau setir
-[16:05:13] [Async Chat Thread - #41/INFO]: [Not Secure] <fikrahmalas> pasukan bajak laut yang sama ada 3 kapal yang karam
-[16:05:26] [Async Chat Thread - #41/INFO]: [Not Secure] <Malikism> ada perang akbar disini pik
-[16:05:30] [Async Chat Thread - #41/INFO]: [Not Secure] <fikrahmalas> iya nih
-[16:08:03] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> tuh
-[16:08:06] [Async Chat Thread - #44/INFO]: [Not Secure] <Malikism> apa
-[16:08:08] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> ini
-[16:08:12] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> tdi bawwah
-[16:08:30] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> wtliik
-[16:08:44] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> di tombak gua jir
-[16:08:53] [Async Chat Thread - #44/INFO]: [Not Secure] <Malikism> aman ko pik?
-[16:08:55] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> aman2
-[16:08:59] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> hampir mati
-[16:09:05] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> btw tadi gimana
-[16:09:11] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> apa
-[16:09:15] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> di bawah
-[16:09:19] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> ada apa
-[16:09:23] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> kapal karam kan
-[16:09:27] [Async Chat Thread - #44/INFO]: [Not Secure] <Malikism> ioyakah
-[16:09:30] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> tlahh
-[16:09:30] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> serem jir
-[16:09:39] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> ada mm
-[16:09:46] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> iya sih serem cuk
-[16:10:01] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> tmaju lik
-[16:10:05] [Async Chat Thread - #44/INFO]: [Not Secure] <Malikism> kita udah llewat sini
-[16:10:21] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> diam2
-[16:10:50] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> tjir lah
-[16:11:08] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> tbanyak mm
-[16:11:17] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> ada chest nih dib awha kita
-[16:11:18] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> iya
-[16:11:26] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> ini mesin heart of the sea kah
-[16:11:31] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> gua ada
-[16:11:36] [Async Chat Thread - #44/INFO]: [Not Secure] <Malikism> gua jgua
-[16:12:00] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> lu ada bulu ayam gak
-[16:12:43] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> mati
-[16:12:55] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> jarah2
-[16:13:16] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> yg di sini
-[16:13:29] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> lik
-[16:13:34] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> bentar
-[16:13:44] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> eh bukan
-[16:14:27] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> daet peta
-[16:14:31] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> kayanya beda ni
-[16:14:33] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> di laut
-[16:14:50] [Async Chat Thread - #44/INFO]: [Not Secure] <Malikism> bukan roma?
-[16:15:19] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> bukan
-[16:15:39] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> kapal
-[16:16:28] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> mana
-[16:17:11] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> ini pandangan gua kenapa otomatis ke kiri
-[16:17:18] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> sama tadi gua juga
-[16:17:49] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> ttu kapal karam yang tadi bukan
-[16:18:02] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> gatau deh
-[16:18:09] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> harta karun dulu deh
-[16:20:33] [Async Chat Thread - #45/INFO]: [Not Secure] <fikrahmalas> ini yang sebelumnya bukan
-[16:21:01] [Async Chat Thread - #45/INFO]: [Not Secure] <Malikism> under
-[16:21:04] [Async Chat Thread - #46/INFO]: [Not Secure] <fikrahmalas> beda ni
-[16:26:55] [Async Chat Thread - #47/INFO]: [Not Secure] <fikrahmalas> lik
-[16:26:57] [Async Chat Thread - #47/INFO]: [Not Secure] <Malikism> apa
-[16:26:59] [Async Chat Thread - #47/INFO]: [Not Secure] <fikrahmalas> bawah ini
-[16:27:02] [Async Chat Thread - #47/INFO]: [Not Secure] <fikrahmalas> apa
-[16:27:03] [Async Chat Thread - #47/INFO]: [Not Secure] <Malikism> apaam
-[16:27:37] [Async Chat Thread - #47/INFO]: [Not Secure] <fikrahmalas> tada che
-[16:27:56] [Server thread/INFO]: Stopping server
-[16:27:56] [Server thread/INFO]: [GSit] Disabling GSit v3.2.0
-[16:27:56] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[16:27:56] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.9.0.0
-[16:27:56] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
-[16:27:57] [Server thread/INFO]: Saving players
-[16:27:57] [Server thread/INFO]: fikrahmalas lost connection: Server closed
-[16:27:57] [Server thread/INFO]: fikrahmalas left the game
-[16:27:57] [Server thread/INFO]: Malikism lost connection: Server closed
-[16:27:57] [Server thread/INFO]: Malikism left the game
-[16:27:57] [Server thread/INFO]: Saving worlds
-[16:27:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:27:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:27:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:27:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Saved 1176 block chunks, 1246 entity chunks, 0 poi chunks in world 'world' in 1.98s
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[16:27:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Saved 15 block chunks, 64 entity chunks, 0 poi chunks in world 'world_nether' in 0.31s
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[16:27:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[16:27:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[16:27:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:27:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:27:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:27:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:27:59] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[16:27:59] [Server thread/INFO]: All I/O tasks to complete
-[16:27:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[16:27:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[11:18:19] [ServerMain/WARN]: resource-pack-id missing, using default of 436ba9a3-3719-3e86-a13b-5992893888d1
+[11:18:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:18:23] [ServerMain/INFO]: Loaded 1370 recipes
+[11:18:23] [ServerMain/INFO]: Loaded 1481 advancements
+[11:18:23] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[11:18:23] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 374.0ms
+[11:18:23] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[11:18:23] [Server thread/INFO]: Loading properties
+[11:18:23] [Server thread/INFO]: This server is running Paper version 1.21.4-60-main@0629524 (2024-12-28T00:13:57Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[11:18:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:18:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:18:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:18:25] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[11:18:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[11:18:26] [Server thread/INFO]: Default game type: SURVIVAL
+[11:18:26] [Server thread/INFO]: Generating keypair
+[11:18:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:18:26] [Server thread/INFO]: Using default channel type
+[11:18:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:18:26] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[11:18:26] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.9.0.0
+[11:18:26] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.2.0
+[11:18:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:18:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:18:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:18:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:18:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:18:26] [Server thread/INFO]: Preparing level "world"
+[11:18:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:18:28] [Server thread/INFO]: Preparing spawn area: 0%
+[11:18:28] [Server thread/INFO]: Preparing spawn area: 2%
+[11:18:28] [Server thread/INFO]: Preparing spawn area: 2%
+[11:18:29] [Server thread/INFO]: Preparing spawn area: 2%
+[11:18:29] [Server thread/INFO]: Preparing spawn area: 2%
+[11:18:30] [Server thread/INFO]: Preparing spawn area: 2%
+[11:18:30] [Server thread/INFO]: Time elapsed: 2764 ms
+[11:18:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:18:30] [Server thread/INFO]: Preparing spawn area: 0%
+[11:18:30] [Server thread/INFO]: Time elapsed: 467 ms
+[11:18:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:18:31] [Server thread/INFO]: Preparing spawn area: 0%
+[11:18:31] [Server thread/INFO]: Time elapsed: 342 ms
+[11:18:31] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.9.0.0
+[11:18:43] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
+[11:18:43] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
+[11:18:43] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
+[11:18:43] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
+[11:18:43] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
+[11:18:43] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
+[11:18:43] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
+[11:18:43] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[11:18:43] [Server thread/INFO]: [GSit] Enabling GSit v3.2.0
+[11:18:43] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[11:18:44] [Server thread/INFO]: [spark] Starting background profiler...
+[11:18:45] [Server thread/INFO]: Done preparing level "world" (18.467s)
+[11:18:45] [Server thread/INFO]: Running delayed init tasks
+[11:18:45] [Server thread/INFO]: Done (39.416s)! For help, type "help"
+[11:18:45] [Server thread/INFO]: Unknown or incomplete command, see below for error
+java -Xmx6G -Xms4G -jar server.jar --nogui<--[HERE]
+[11:18:46] [Craft Scheduler Thread - 1 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
+[11:27:31] [User Authenticator #0/INFO]: UUID of player cheruu is bf1ab596-8bb1-39ae-9a05-5eccbecbab9e
+[11:27:40] [Server thread/INFO]: cheruu joined the game
+[11:27:40] [Server thread/INFO]: cheruu[/127.241.130.210:55733] logged in with entity id 267 at ([world]412.9019656738007, 64.0, -403.7863552872406)
+[11:45:10] [Server thread/WARN]: cheruu moved too quickly! -15.020860225398053,0.0,-4.160060685102849
+[11:49:41] [Server thread/INFO]: cheruu was slain by Trader Llama
+[12:45:44] [Server thread/WARN]: cheruu moved too quickly! 5.784043027737809,0.0,8.369573926596559
+[12:57:15] [Server thread/INFO]: cheruu discovered the floor was lava
+[13:16:37] [Server thread/INFO]: cheruu was slain by Zombie
+[13:22:19] [Server thread/INFO]: cheruu was slain by Trader Llama
+[13:23:23] [User Authenticator #1/INFO]: UUID of player Malikism is 3111e11d-a8d8-38cb-91d5-3634898fe22d
+[13:23:28] [Server thread/INFO]: Malikism joined the game
+[13:23:28] [Server thread/INFO]: Malikism[/127.145.48.104:57097] logged in with entity id 17201 at ([world]947.4767172747191, 57.0, -1771.7293589528904)
+[13:25:11] [Async Chat Thread - #0/INFO]: [Not Secure] <cheruu> lik
+[13:25:15] [Async Chat Thread - #0/INFO]: [Not Secure] <cheruu> kau di desa rumah ga
+[13:25:31] [Async Chat Thread - #0/INFO]: [Not Secure] <Malikism> lagi jauh
+[13:25:35] [Async Chat Thread - #1/INFO]: [Not Secure] <cheruu> alamak
+[13:27:21] [User Authenticator #2/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:27:24] [Server thread/INFO]: fikrahmalas joined the game
+[13:27:24] [Server thread/INFO]: fikrahmalas[/127.188.49.132:54965] logged in with entity id 18430 at ([world]945.2393031663149, 57.0, -1777.4339026181965)
+[13:27:42] [Async Chat Thread - #2/INFO]: [Not Secure] <cheruu> fikrah lagi di desa rumah ga?
+[13:27:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> sini cel jalan
+[13:27:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> sama pikraj ini
+[13:28:06] [Async Chat Thread - #2/INFO]: [Not Secure] <cheruu> ak jauh
+[13:28:09] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:28:09] [Server thread/INFO]: fikrahmalas left the game
+[13:28:15] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> lah
+[13:28:20] [Async Chat Thread - #2/INFO]: [Not Secure] <cheruu> lg mengerjakan sesuatu
+[13:28:25] [User Authenticator #3/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:28:26] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> apa tuh
+[13:28:27] [Server thread/INFO]: fikrahmalas joined the game
+[13:28:27] [Server thread/INFO]: fikrahmalas[/127.188.49.132:38289] logged in with entity id 18767 at ([world]946.8129821004449, 62.114652742582656, -1778.2068304246957)
+[13:28:29] [Async Chat Thread - #2/INFO]: [Not Secure] <cheruu> desa oren
+[13:28:34] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> jir
+[13:28:40] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> pik
+[13:28:40] [Async Chat Thread - #3/INFO]: [Not Secure] <cheruu> desa oren di belakang goa kmrn
+[13:28:47] [Async Chat Thread - #3/INFO]: [Not Secure] <cheruu> barangku yg lama ada disitu
+[13:28:57] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> nanti mau tp kesini ga
+[13:29:08] [Async Chat Thread - #3/INFO]: [Not Secure] <fikrahmalas> test
+[13:29:11] [Async Chat Thread - #3/INFO]: [Not Secure] <cheruu> mau ke rumah dulu nnt kl bisa
+[13:29:12] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:29:12] [Server thread/INFO]: fikrahmalas left the game
+[13:29:13] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> ya
+[13:29:16] [Async Chat Thread - #2/INFO]: [Not Secure] <cheruu> mau pindahin barang
+[13:29:19] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> lah\
+[13:29:25] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> sipp
+[13:29:33] [Async Chat Thread - #2/INFO]: [Not Secure] <cheruu> kalian bareng?
+[13:29:37] [Async Chat Thread - #2/INFO]: [Not Secure] <cheruu> dimana?
+[13:29:39] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> iya
+[13:29:44] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> jauh bgt
+[13:30:04] [Async Chat Thread - #3/INFO]: [Not Secure] <cheruu> goa?
+[13:30:11] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> laut
+[13:30:37] [Async Chat Thread - #3/INFO]: [Not Secure] <cheruu> kl ak bawa looting kesitu pasti mati
+[13:30:41] [Async Chat Thread - #3/INFO]: [Not Secure] <cheruu> udh dapet banyak
+[13:30:45] [User Authenticator #4/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:30:46] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> bukan goa
+[13:30:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> aman
+[13:30:49] [Server thread/INFO]: fikrahmalas joined the game
+[13:30:49] [Server thread/INFO]: fikrahmalas[/127.188.49.132:57723] logged in with entity id 19638 at ([world]946.7447231042588, 62.35455319149783, -1778.52003135005)
+[13:31:00] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> pik
+[13:31:05] [Async Chat Thread - #3/INFO]: [Not Secure] <cheruu> disini ada tempat banyak iron tp pickaxeku cmn 1
+[13:31:09] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:31:10] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> td kau anukan bersih barang ya
+[13:31:16] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> jir
+[13:31:19] [Async Chat Thread - #3/INFO]: [Not Secure] <Malikism> ambil di gsg aja
+[13:31:34] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:31:34] [Server thread/INFO]: fikrahmalas left the game
+[13:31:34] [Server thread/INFO]: Attempt to teleport removed player fikrahmalas restricted
+[13:31:38] [Async Chat Thread - #3/INFO]: [Not Secure] <cheruu> lah
+[13:31:39] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> pikrah knp jir
+[13:31:42] [Async Chat Thread - #2/INFO]: [Not Secure] <cheruu> punya bed ga lik
+[13:31:46] [Async Chat Thread - #2/INFO]: [Not Secure] <cheruu> lag mungkin
+[13:31:54] [User Authenticator #5/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:31:56] [Server thread/INFO]: fikrahmalas joined the game
+[13:31:56] [Server thread/INFO]: fikrahmalas[/127.188.49.132:56623] logged in with entity id 19881 at ([world]951.1790189857637, 62.03236431121827, -1775.179022747014)
+[13:32:08] [Async Chat Thread - #2/INFO]: [Not Secure] <Malikism> ko ngapa pik
+[13:32:15] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:32:21] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:32:41] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:32:41] [Server thread/INFO]: fikrahmalas left the game
+[13:32:41] [Server thread/INFO]: Attempt to teleport removed player fikrahmalas restricted
+[13:32:50] [User Authenticator #5/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:32:52] [Server thread/INFO]: fikrahmalas joined the game
+[13:32:52] [Server thread/INFO]: fikrahmalas[/127.188.49.132:46625] logged in with entity id 20066 at ([world]951.473703508765, 62.03236431121827, -1777.9787335357694)
+[13:33:25] [Async Chat Thread - #5/INFO]: [Not Secure] <Malikism> pik
+[13:33:37] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:33:37] [Server thread/INFO]: fikrahmalas left the game
+[13:33:37] [Server thread/INFO]: Attempt to teleport removed player fikrahmalas restricted
+[13:33:39] [Async Chat Thread - #5/INFO]: [Not Secure] <cheruu> pd bs tidur ga
+[13:33:44] [Async Chat Thread - #4/INFO]: [Not Secure] <cheruu> tidur lik
+[13:33:48] [Async Chat Thread - #4/INFO]: [Not Secure] <Malikism> gada bed cel
+[13:33:52] [Async Chat Thread - #4/INFO]: [Not Secure] <cheruu> YAH
+[13:33:54] [Async Chat Thread - #4/INFO]: [Not Secure] <Malikism> lagi nunggu pikrah
+[13:33:57] [User Authenticator #6/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:33:59] [Server thread/INFO]: fikrahmalas joined the game
+[13:33:59] [Server thread/INFO]: fikrahmalas[/127.188.49.132:46455] logged in with entity id 20265 at ([world]953.8177142529778, 62.03236431121827, -1776.8747455504185)
+[13:34:08] [Async Chat Thread - #4/INFO]: [Not Secure] <cheruu> btw ayo kapan2 bangun kereta
+[13:34:12] [Async Chat Thread - #4/INFO]: [Not Secure] <cheruu> ke desa oren
+[13:34:14] [Async Chat Thread - #4/INFO]: [Not Secure] <cheruu> ku dah apal
+[13:34:21] [Async Chat Thread - #4/INFO]: [Not Secure] <Malikism> desa oren ada apaan jir
+[13:34:25] [Async Chat Thread - #4/INFO]: [Not Secure] <cheruu> goa
+[13:34:27] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:34:43] [Async Chat Thread - #5/INFO]: [Not Secure] <cheruu> cara bangun kereta gimana
+[13:34:44] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:34:44] [Server thread/INFO]: fikrahmalas left the game
+[13:34:44] [Server thread/INFO]: Attempt to teleport removed player fikrahmalas restricted
+[13:34:46] [Async Chat Thread - #5/INFO]: [Not Secure] <cheruu> butuh apa aja
+[13:34:54] [Async Chat Thread - #5/INFO]: [Not Secure] <Malikism> rel biasa
+[13:35:00] [Async Chat Thread - #5/INFO]: [Not Secure] <cheruu> kau left dulu lik, ak tidur
+[13:35:05] [Async Chat Thread - #4/INFO]: [Not Secure] <Malikism> trus powered rail
+[13:35:06] [Server thread/INFO]: Malikism lost connection: Disconnected
+[13:35:06] [Server thread/INFO]: Malikism left the game
+[13:35:07] [Async Chat Thread - #4/INFO]: [Not Secure] <cheruu> oke
+[13:35:21] [User Authenticator #7/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:35:23] [Server thread/INFO]: fikrahmalas joined the game
+[13:35:23] [Server thread/INFO]: fikrahmalas[/127.188.49.132:32891] logged in with entity id 20810 at ([world]1182.0276129510705, 62.03236431121827, -1770.594954715735)
+[13:35:44] [User Authenticator #7/INFO]: UUID of player Malikism is 3111e11d-a8d8-38cb-91d5-3634898fe22d
+[13:35:45] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:35:48] [Server thread/INFO]: Malikism joined the game
+[13:35:48] [Server thread/INFO]: Malikism[/127.145.48.104:40571] logged in with entity id 21058 at ([world]1185.2805432779899, 62.110764312744145, -1773.2308720418785)
+[13:35:58] [Async Chat Thread - #5/INFO]: [Not Secure] <Malikism> pig
+[13:36:08] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:36:08] [Server thread/INFO]: fikrahmalas left the game
+[13:36:30] [User Authenticator #7/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:36:33] [Server thread/INFO]: fikrahmalas joined the game
+[13:36:33] [Server thread/INFO]: fikrahmalas[/127.188.49.132:34443] logged in with entity id 21375 at ([world]1185.8818078729355, 64.0, -1748.5344372729855)
+[13:37:39] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:37:47] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> ko ngapain pik
+[13:38:09] [Async Chat Thread - #7/INFO]: [Not Secure] <Malikism> kerasukan herobrine jir
+[13:39:33] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:40:55] [Async Chat Thread - #9/INFO]: [Not Secure] <cheruu> cara smite barang gimana
+[13:41:01] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> smith?
+[13:41:05] [Async Chat Thread - #8/INFO]: [Not Secure] <cheruu> eh
+[13:41:08] [Async Chat Thread - #9/INFO]: [Not Secure] <cheruu> iya kali
+[13:41:10] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> diapain?
+[13:41:14] [Async Chat Thread - #8/INFO]: [Not Secure] <cheruu> iya
+[13:41:17] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> pake anvil?
+[13:41:20] [Async Chat Thread - #8/INFO]: [Not Secure] <cheruu> loh
+[13:41:25] [Async Chat Thread - #8/INFO]: [Not Secure] <cheruu> sama apa aja
+[13:41:26] [Async Chat Thread - #9/INFO]: [Not Secure] <Malikism> ini pikrah ngapain jir
+[13:41:32] [Async Chat Thread - #9/INFO]: [Not Secure] <Malikism> gajelas
+[13:41:40] [Async Chat Thread - #9/INFO]: [Not Secure] <Malikism> lupa cuy
+[13:41:50] [Async Chat Thread - #8/INFO]: [Not Secure] <fikrahmalas> test
+[13:41:55] [Async Chat Thread - #8/INFO]: [Not Secure] <Malikism> lu ngapain pik
+[13:41:59] [Async Chat Thread - #9/INFO]: [Not Secure] <fikrahmalas> test2
+[13:42:04] [Async Chat Thread - #9/INFO]: [Not Secure] <Malikism> tes
+[13:42:45] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:42:45] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.529455, 100.000000, -1774.300000]
+[13:42:59] [Async Chat Thread - #9/INFO]: [Not Secure] <Malikism> aoalah
+[13:43:04] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:43:04] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 100.000000, -1775.819499]
+[13:43:13] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:43:13] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 100.000000, -1775.819499]
+[13:43:16] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:43:16] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 100.000000, -1775.819499]
+[13:43:19] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:43:19] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 100.000000, -1775.819499]
+[13:43:21] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:43:21] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 100.000000, -1775.819499]
+[13:43:22] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:43:22] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 100.000000, -1775.819499]
+[13:43:23] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:43:23] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 100.000000, -1775.819499]
+[13:43:25] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:43:25] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 100.000000, -1775.819499]
+[13:43:27] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:43:27] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 100.000000, -1775.819499]
+[13:43:28] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:43:28] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 100.000000, -1775.819499]
+[13:43:30] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 100 ~
+[13:43:30] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 100.000000, -1775.819499]
+[13:44:11] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 1000 ~
+[13:44:11] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1276.733743, 1000.000000, -1775.819499]
+[13:44:54] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/tp fikrahmalas ~ 1000 ~<--[HERE]
+[13:44:58] [Server thread/INFO]: Malikism issued server command: /tp fikrahmalas ~ 1000 ~
+[13:44:58] [Server thread/INFO]: [Malikism: Teleported fikrahmalas to 1278.647761, 1000.000000, -1772.373284]
+[13:45:12] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas ~ 1000 ~
+[13:45:12] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to 1278.647761, 1000.000000, -1772.373284]
+[13:45:18] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas Malikism
+[13:45:18] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to Malikism]
+[13:45:19] [Server thread/INFO]: fikrahmalas fell from a high place
+[13:45:30] [Server thread/INFO]: Malikism issued server command: /tp fikrahmalas Malikism
+[13:45:30] [Server thread/INFO]: [Malikism: Teleported fikrahmalas to Malikism]
+[13:45:56] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas Malikism
+[13:45:56] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to Malikism]
+[13:46:07] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:46:15] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:46:15] [Server thread/INFO]: fikrahmalas left the game
+[13:46:42] [Server thread/INFO]: Malikism has made the advancement [Cover Me with Diamonds]
+[13:46:47] [Async Chat Thread - #10/INFO]: [Not Secure] <cheruu> wah
+[13:46:58] [Async Chat Thread - #10/INFO]: [Not Secure] <cheruu> itu caranya gimana
+[13:47:29] [Async Chat Thread - #10/INFO]: [Not Secure] <Malikism> apaan
+[13:47:36] [Async Chat Thread - #10/INFO]: [Not Secure] <cheruu> diamon
+[13:47:39] [User Authenticator #8/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:47:41] [Server thread/INFO]: fikrahmalas joined the game
+[13:47:41] [Server thread/INFO]: fikrahmalas[/127.188.49.132:53335] logged in with entity id 24810 at ([world]1272.6359372268305, 62.510840623554444, -1770.9108025025744)
+[13:47:48] [Async Chat Thread - #10/INFO]: [Not Secure] <Malikism> punya armor diamon
+[13:48:25] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:48:26] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:48:26] [Server thread/INFO]: fikrahmalas left the game
+[13:48:37] [User Authenticator #8/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:48:38] [Server thread/INFO]: fikrahmalas joined the game
+[13:48:38] [Server thread/INFO]: fikrahmalas[/127.188.49.132:40207] logged in with entity id 24968 at ([world]1272.6359372268305, 61.34073392141269, -1770.9108025025744)
+[13:49:15] [Async Chat Thread - #12/INFO]: [Not Secure] <Malikism> bukan lootan kau itu
+[13:49:23] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:49:23] [Server thread/INFO]: fikrahmalas left the game
+[13:49:33] [User Authenticator #8/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:49:35] [Server thread/INFO]: fikrahmalas joined the game
+[13:49:35] [Server thread/INFO]: fikrahmalas[/127.188.49.132:58521] logged in with entity id 25166 at ([world]1278.1608000399708, 63.0, -1770.225196366372)
+[13:49:51] [Server thread/INFO]: fikrahmalas lost connection: Disconnected
+[13:49:51] [Server thread/INFO]: fikrahmalas left the game
+[13:49:56] [User Authenticator #8/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:49:57] [Server thread/INFO]: fikrahmalas joined the game
+[13:49:57] [Server thread/INFO]: fikrahmalas[/127.188.49.132:44743] logged in with entity id 25263 at ([world]1278.1608000399708, 63.0, -1770.225196366372)
+[13:50:42] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:50:43] [Server thread/INFO]: fikrahmalas left the game
+[13:50:49] [User Authenticator #8/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:50:52] [Server thread/INFO]: fikrahmalas joined the game
+[13:50:52] [Server thread/INFO]: fikrahmalas[/127.188.49.132:59477] logged in with entity id 25414 at ([world]1276.46658751985, 63.0, -1771.8526267418758)
+[13:51:25] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:51:37] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:51:37] [Server thread/INFO]: fikrahmalas left the game
+[13:51:42] [Async Chat Thread - #14/INFO]: [Not Secure] <Malikism> ak mw pegi
+[13:51:53] [Async Chat Thread - #15/INFO]: [Not Secure] <Malikism> cuman pikrahnya ini gimana dah
+[13:52:22] [User Authenticator #9/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:52:23] [Server thread/INFO]: fikrahmalas joined the game
+[13:52:23] [Server thread/INFO]: fikrahmalas[/127.188.49.132:35541] logged in with entity id 25703 at ([world]1276.46658751985, 63.0, -1771.8526267418758)
+[13:52:33] [Server thread/INFO]: [Not Secure] [Server] lag
+[13:52:52] [Server thread/INFO]: [Not Secure] [Server] alu lag
+[13:52:59] [Server thread/INFO]: fikrahmalas lost connection: Disconnected
+[13:52:59] [Server thread/INFO]: fikrahmalas left the game
+[13:53:05] [Async Chat Thread - #14/INFO]: [Not Secure] <cheruu> ijin left bentar
+[13:53:07] [Server thread/INFO]: cheruu lost connection: Disconnected
+[13:53:07] [Server thread/INFO]: cheruu left the game
+[13:53:13] [User Authenticator #9/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:53:17] [Server thread/INFO]: fikrahmalas joined the game
+[13:53:17] [Server thread/INFO]: fikrahmalas[/127.188.49.132:36389] logged in with entity id 25859 at ([world]1276.46658751985, 63.0, -1771.8526267418758)
+[13:53:31] [Async Chat Thread - #14/INFO]: [Not Secure] <fikrahmalas> test
+[13:53:51] [Async Chat Thread - #14/INFO]: [Not Secure] <fikrahmalas> alamak
+[13:54:02] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:54:02] [Server thread/INFO]: fikrahmalas left the game
+[13:55:01] [User Authenticator #10/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:55:03] [Server thread/INFO]: fikrahmalas joined the game
+[13:55:03] [Server thread/INFO]: fikrahmalas[/127.188.49.132:40863] logged in with entity id 26176 at ([world]1276.46658751985, 63.0, -1771.8526267418758)
+[13:55:35] [Async Chat Thread - #17/INFO]: [Not Secure] <fikrahmalas> test
+[13:55:37] [Async Chat Thread - #17/INFO]: [Not Secure] <fikrahmalas> ttest
+[13:55:38] [Async Chat Thread - #17/INFO]: [Not Secure] <Malikism> ya
+[13:55:39] [Async Chat Thread - #17/INFO]: [Not Secure] <fikrahmalas> ttest
+[13:55:46] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:55:48] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:55:48] [Server thread/INFO]: fikrahmalas left the game
+[13:55:50] [Async Chat Thread - #17/INFO]: [Not Secure] <Malikism> ko main pake bluetooth aja
+[13:55:59] [User Authenticator #10/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:56:00] [Server thread/INFO]: fikrahmalas joined the game
+[13:56:00] [Server thread/INFO]: fikrahmalas[/127.188.49.132:35145] logged in with entity id 26740 at ([world]1278.5409408905577, 63.0, -1769.4418226150722)
+[13:56:45] [Server thread/INFO]: fikrahmalas lost connection: Timed out
+[13:56:45] [Server thread/INFO]: fikrahmalas left the game
+[13:57:05] [User Authenticator #11/INFO]: UUID of player fikrahmalas is 496383ab-814d-3e00-8796-9567464839f5
+[13:57:06] [Server thread/INFO]: fikrahmalas joined the game
+[13:57:06] [Server thread/INFO]: fikrahmalas[/127.188.49.132:35601] logged in with entity id 27485 at ([world]1275.0761647363477, 63.0, -1771.4323888023703)
+[13:57:26] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:57:37] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:57:45] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[13:57:47] [Async Chat Thread - #19/INFO]: [Not Secure] <fikrahmalas> test
+[13:57:51] [Async Chat Thread - #20/INFO]: [Not Secure] <Malikism> ya
+[13:57:54] [Async Chat Thread - #19/INFO]: [Not Secure] <fikrahmalas> sip2
+[13:57:59] [Async Chat Thread - #19/INFO]: [Not Secure] <Malikism> udah?
+[13:58:11] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> udah
+[13:58:32] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> thank you lik
+[13:58:41] [Async Chat Thread - #20/INFO]: [Not Secure] <Malikism> iya pik
+[13:58:50] [Async Chat Thread - #19/INFO]: [Not Secure] <Malikism> ko ngapain tp2
+[13:58:56] [Async Chat Thread - #19/INFO]: [Not Secure] <Malikism> tp gw sini
+[13:58:57] [User Authenticator #12/INFO]: UUID of player cheruu is bf1ab596-8bb1-39ae-9a05-5eccbecbab9e
+[13:58:58] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> test
+[13:58:58] [Async Chat Thread - #19/INFO]: [Not Secure] <Malikism> ke ak
+[13:59:03] [Server thread/INFO]: cheruu joined the game
+[13:59:03] [Server thread/INFO]: cheruu[/127.241.130.210:43573] logged in with entity id 28278 at ([world]789.9606968353513, 72.0, -978.4276637191236)
+[13:59:06] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> ngetes doang
+[13:59:10] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> masi lag apa gak
+[13:59:17] [Async Chat Thread - #20/INFO]: [Not Secure] <Malikism> owalah
+[13:59:44] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas Malikism
+[13:59:44] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to Malikism]
+[13:59:53] [Async Chat Thread - #20/INFO]: [Not Secure] <fikrahmalas> aih
+[14:00:06] [Async Chat Thread - #19/INFO]: [Not Secure] <fikrahmalas> test
+[14:00:26] [Async Chat Thread - #19/INFO]: [Not Secure] <fikrahmalas> tberenti dulu bentar
+[14:00:49] [Async Chat Thread - #19/INFO]: [Not Secure] <fikrahmalas> test
+[14:00:53] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[14:01:01] [Async Chat Thread - #19/INFO]: [Not Secure] <fikrahmalas> lik
+[14:01:38] [Async Chat Thread - #19/INFO]: [Not Secure] <fikrahmalas> cel
+[14:01:45] [Async Chat Thread - #19/INFO]: [Not Secure] <cheruu> hadir
+[14:01:51] [Async Chat Thread - #19/INFO]: [Not Secure] <fikrahmalas> nah
+[14:02:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3182ms or 63 ticks behind
+[14:02:42] [Server thread/WARN]: cheruu moved too quickly! -11.755975522964604,0.0,-4.1061133305777275
+[14:02:42] [Server thread/WARN]: Malikism moved too quickly! -4.381239060814551,-1.355976459915631,8.924559032649086
+[14:03:02] [Async Chat Thread - #21/INFO]: [Not Secure] <fikrahmalas> dapat peta lik
+[14:03:08] [Async Chat Thread - #22/INFO]: [Not Secure] <Malikism> sama jir
+[14:04:27] [Async Chat Thread - #23/INFO]: [Not Secure] <Malikism> ayo pik
+[14:05:37] [Async Chat Thread - #26/INFO]: [Not Secure] <fikrahmalas> t
+[14:05:54] [Server thread/INFO]: fikrahmalas issued server command: /tps
+[14:06:28] [Async Chat Thread - #26/INFO]: [Not Secure] <Malikism> feeling gw gaenak pik
+[14:06:31] [Async Chat Thread - #25/INFO]: [Not Secure] <fikrahmalas> itu apa tuh lik
+[14:06:56] [Async Chat Thread - #25/INFO]: [Not Secure] <Malikism> vhamm
+[14:07:06] [Async Chat Thread - #25/INFO]: [Not Secure] <fikrahmalas> hell nah
+[14:07:07] [Async Chat Thread - #25/INFO]: [Not Secure] <cheruu> kalian dimana
+[14:07:13] [Async Chat Thread - #25/INFO]: [Not Secure] <Malikism> dipreng mojang
+[14:07:15] [Async Chat Thread - #25/INFO]: [Not Secure] <Malikism> jauh cel
+[14:07:20] [Async Chat Thread - #25/INFO]: [Not Secure] <Malikism> mw ku tpkan kah
+[14:07:20] [Async Chat Thread - #25/INFO]: [Not Secure] <cheruu> goa?
+[14:07:22] [Async Chat Thread - #25/INFO]: [Not Secure] <Malikism> engga
+[14:07:23] [Async Chat Thread - #25/INFO]: [Not Secure] <cheruu> noo
+[14:07:23] [Async Chat Thread - #25/INFO]: [Not Secure] <Malikism> aman
+[14:07:25] [Async Chat Thread - #25/INFO]: [Not Secure] <fikrahmalas> mau balik kah
+[14:07:27] [Async Chat Thread - #25/INFO]: [Not Secure] <cheruu> oh
+[14:07:32] [Async Chat Thread - #25/INFO]: [Not Secure] <cheruu> kirain ketemu warden
+[14:07:34] [Async Chat Thread - #26/INFO]: [Not Secure] <Malikism> peta kau pik
+[14:07:37] [Async Chat Thread - #25/INFO]: [Not Secure] <Malikism> sini cel
+[14:07:40] [Async Chat Thread - #26/INFO]: [Not Secure] <fikrahmalas> tndak ada
+[14:07:42] [Async Chat Thread - #26/INFO]: [Not Secure] <Malikism> kau ada peta kan
+[14:07:54] [Async Chat Thread - #25/INFO]: [Not Secure] <fikrahmalas> tinna2 ilang
+[14:08:15] [Async Chat Thread - #25/INFO]: [Not Secure] <Malikism> mana pik
+[14:08:25] [Async Chat Thread - #26/INFO]: [Not Secure] <fikrahmalas> ndak ada
+[14:08:34] [Async Chat Thread - #26/INFO]: [Not Secure] <Malikism> mau balik kah?
+[14:08:41] [Async Chat Thread - #25/INFO]: [Not Secure] <fikrahmalas> boleh2
+[14:09:24] [Async Chat Thread - #25/INFO]: [Not Secure] <Malikism> bentar\w
+[14:10:17] [Server thread/INFO]: Malikism drowned
+[14:10:24] [Server thread/INFO]: Malikism issued server command: /tp Malikism fikrahmalas
+[14:10:24] [Server thread/INFO]: [Malikism: Teleported Malikism to fikrahmalas]
+[14:10:26] [Async Chat Thread - #27/INFO]: [Not Secure] <fikrahmalas> nooo
+[14:11:10] [Async Chat Thread - #28/INFO]: [Not Secure] <fikrahmalas> mau nyari ancient city gak?
+[14:11:36] [Async Chat Thread - #28/INFO]: [Not Secure] <fikrahmalas> kita bantai2 warden
+[14:11:41] [Async Chat Thread - #28/INFO]: [Not Secure] <Malikism> ayo
+[14:11:43] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> aku ada ide
+[14:11:55] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> kita pakai pasukan iron golem
+[14:12:10] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> t
+[14:12:24] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> shield mu lik
+[14:12:32] [Async Chat Thread - #29/INFO]: [Not Secure] <Malikism> mana
+[14:12:38] [Async Chat Thread - #28/INFO]: [Not Secure] <fikrahmalas> idu di sana
+[14:13:02] [Async Chat Thread - #29/INFO]: [Not Secure] <Malikism> ini iron siapa jir
+[14:13:03] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> emeral
+[14:13:13] [Async Chat Thread - #29/INFO]: [Not Secure] <Malikism> tenks
+[14:13:19] [Async Chat Thread - #29/INFO]: [Not Secure] <Malikism> infokan warden
+[14:13:50] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> tcelsi mau ikut berpetualang mencari ancient city kah
+[14:14:05] [Server thread/INFO]: cheruu was slain by Spider
+[14:14:16] [Async Chat Thread - #28/INFO]: [Not Secure] <fikrahmalas> walah
+[14:14:19] [Async Chat Thread - #29/INFO]: [Not Secure] <Malikism> ayo
+[14:14:42] [Async Chat Thread - #28/INFO]: [Not Secure] <cheruu> duluan aja
+[14:14:45] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> oke
+[14:14:52] [Async Chat Thread - #29/INFO]: [Not Secure] <cheruu> ancoent citu tuh goa?
+[14:14:59] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> kita cari pegunungan bergerigi lik
+[14:15:12] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> tempat peradaban kuno (sarang asli wardedn)
+[14:15:14] [Async Chat Thread - #28/INFO]: [Not Secure] <Malikism> ancient city itu kyk monumen bawah tanah gitu
+[14:16:10] [Async Chat Thread - #28/INFO]: [Not Secure] <fikrahmalas> eh kita ndak ada persiapan ya
+[14:16:18] [Async Chat Thread - #29/INFO]: [Not Secure] <Malikism> balik dulu pik
+[14:16:30] [Async Chat Thread - #29/INFO]: [Not Secure] <fikrahmalas> ya balik dilu daeh
+[14:19:38] [Async Chat Thread - #30/INFO]: [Not Secure] <fikrahmalas> follow me
+[14:21:30] [Server thread/INFO]: fikrahmalas issued server command: /tp fikrahmalas Malikism
+[14:21:30] [Server thread/INFO]: [fikrahmalas: Teleported fikrahmalas to Malikism]
+[14:21:39] [Async Chat Thread - #32/INFO]: [Not Secure] <fikrahmalas> tyok
+[14:23:54] [Async Chat Thread - #34/INFO]: [Not Secure] <cheruu> kalian bawa bed?
+[14:28:53] [Server thread/INFO]: Malikism was blown up by Creeper
+[14:31:00] [Async Chat Thread - #36/INFO]: [Not Secure] <Malikism> gw udah di base pik
+[14:31:04] [Async Chat Thread - #36/INFO]: [Not Secure] <fikrahmalas> sama
+[14:31:07] [Async Chat Thread - #37/INFO]: [Not Secure] <Malikism> hampir
+[14:31:18] [Async Chat Thread - #36/INFO]: [Not Secure] <Malikism> itung sampe 5
+[14:31:23] [Async Chat Thread - #37/INFO]: [Not Secure] <fikrahmalas> sa sudah di rumah
+[14:32:48] [Async Chat Thread - #38/INFO]: [Not Secure] <Malikism> ironmu ilang ga pik
+[14:32:53] [Async Chat Thread - #38/INFO]: [Not Secure] <fikrahmalas> ada
+[14:33:04] [Async Chat Thread - #38/INFO]: [Not Secure] <fikrahmalas> gak papa
+[14:33:07] [Async Chat Thread - #38/INFO]: [Not Secure] <fikrahmalas> sa masih banyak
+[14:33:27] [Server thread/INFO]: Villager Villager['Armorer'/39506, uuid='776ea6cc-7b7b-4adc-8702-4aae34db4622', l='ServerLevel[world]', x=77.71, y=71.00, z=-1360.62, cpos=[4, -86], tl=110845, v=true] died, message: 'Armorer was slain by Zombie'
+[14:34:31] [Async Chat Thread - #40/INFO]: [Not Secure] <fikrahmalas> ada kulit sapi gak
+[14:35:10] [Async Chat Thread - #40/INFO]: [Not Secure] <Malikism> ada
+[14:42:02] [Async Chat Thread - #42/INFO]: [Not Secure] <Malikism> cuk
+[14:42:06] [Async Chat Thread - #42/INFO]: [Not Secure] <fikrahmalas> oi
+[14:42:14] [Async Chat Thread - #42/INFO]: [Not Secure] <Malikism> curse of binding ilanginnya fgimana
+[14:42:19] [Async Chat Thread - #42/INFO]: [Not Secure] <fikrahmalas> walah
+[14:42:23] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> lagi kok dipake
+[14:42:26] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> gatau
+[14:42:40] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> ada tulisannya curse of binding
+[14:43:00] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> itu kutukan
+[14:43:16] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> jangan bilang armor kulit yang lu pake itu?
+[14:43:17] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> rajungan
+[14:43:22] [Async Chat Thread - #43/INFO]: [Not Secure] <Malikism> iya
+[14:43:25] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> wailah
+[14:43:32] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> mau gak mau diancurin
+[14:43:41] [Async Chat Thread - #43/INFO]: [Not Secure] <fikrahmalas> sini ke atas
+[14:46:11] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> ke atas lah wahai malik
+[14:46:23] [Async Chat Thread - #45/INFO]: [Not Secure] <fikrahmalas> akan ku perlihatkan bagaimana cara melepas kutukan itu
+[14:46:30] [Async Chat Thread - #44/INFO]: [Not Secure] <Malikism> mana ko cel
+[14:46:43] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> masuklah ke sini
+[14:46:49] [Async Chat Thread - #44/INFO]: [Not Secure] <Malikism> seperrtinhya aku tahu
+[14:47:19] [Async Chat Thread - #45/INFO]: [Not Secure] <Malikism> spare me
+[14:47:28] [Async Chat Thread - #45/INFO]: [Not Secure] <fikrahmalas> pilih mati atau kehancuran armor?
+[14:47:34] [Async Chat Thread - #45/INFO]: [Not Secure] <Malikism> kematian
+[14:47:40] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> baiklah
+[14:47:47] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> ada kata2 terakhir?
+[14:47:58] [Async Chat Thread - #44/INFO]: [Not Secure] <Malikism> enggaada
+[14:48:05] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> bersiaplah
+[14:48:13] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> aku akan memberikan rasa sakit seminimal mungkin
+[14:48:24] [Server thread/INFO]: Malikism was slain by fikrahmalas
+[14:48:55] [Async Chat Thread - #44/INFO]: [Not Secure] <Malikism> aku kembali
+[14:49:17] [Async Chat Thread - #44/INFO]: [Not Secure] <Malikism> mau makan bentar
+[14:49:19] [Server thread/INFO]: Malikism lost connection: Disconnected
+[14:49:19] [Server thread/INFO]: Malikism left the game
+[14:49:30] [Async Chat Thread - #44/INFO]: [Not Secure] <fikrahmalas> tbagi kulit sapi lik
+[14:52:29] [Server thread/INFO]: cheruu tried to swim in lava to escape Spider
+[14:54:02] [Async Chat Thread - #46/INFO]: [Not Secure] <cheruu> guys, ak left fuluan
+[14:54:05] [Async Chat Thread - #46/INFO]: [Not Secure] <fikrahmalas> oke
+[14:54:12] [Async Chat Thread - #46/INFO]: [Not Secure] <cheruu> selamat membantai warden
+[14:54:15] [Server thread/INFO]: cheruu lost connection: Disconnected
+[14:54:15] [Server thread/INFO]: cheruu left the game
+[14:54:17] [Async Chat Thread - #46/INFO]: [Not Secure] <fikrahmalas> yo
+[14:59:56] [Server thread/INFO]: fikrahmalas issued server command: /time set night
+[14:59:56] [Server thread/INFO]: [fikrahmalas: Set the time to 13000]
+[15:02:26] [Server thread/INFO]: fikrahmalas lost connection: Disconnected
+[15:02:26] [Server thread/INFO]: fikrahmalas left the game
+[15:04:23] [Server thread/INFO]: Stopping server
+[15:04:23] [Server thread/INFO]: [GSit] Disabling GSit v3.2.0
+[15:04:23] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[15:04:23] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.9.0.0
+[15:04:23] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[15:04:23] [Server thread/INFO]: Saving players
+[15:04:23] [Server thread/INFO]: Saving worlds
+[15:04:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:04:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:04:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:04:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:04:23] [Server thread/INFO]: [ChunkHolderManager] Saved 6 block chunks, 147 entity chunks, 0 poi chunks in world 'world' in 0.33s
+[15:04:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[15:04:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[15:04:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:04:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:04:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:04:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:04:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nether' in 0.26s
+[15:04:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[15:04:27] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[15:04:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:04:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:04:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:04:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:04:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.11s
+[15:04:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[15:04:27] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[15:04:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:04:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:04:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:04:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:04:27] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[15:04:27] [Server thread/INFO]: All I/O tasks to complete
+[15:04:27] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[15:04:27] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
