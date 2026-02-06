@@ -1,5 +1,5 @@
 {
-  "imageframe.messages.reloaded": "ImageFrame has been reloaded!",
+  "imageframe.messages.reloaded": "¡ImagenFrame ha sido recargada!",
   "imageframe.messages.resync": "Performing resync! See console for details.",
   "imageframe.messages.storage_migration": "Performing storage migration! See console for details.",
   "imageframe.messages.image_map_processing": "ImageMap is being processed, please wait!",
